@@ -1,0 +1,219 @@
+Thread 0: 0.000000 s, 64.827475 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:1024,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):63.405797,TotalRunTime(s):0.000148,WSS(MiB):0.000961,
+Thread 0: 0.000000 s, 67.271967 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:6144,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):256.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):67.001675,TotalRunTime(s):0.000854,WSS(MiB):0.005859,
+Thread 0: 0.000000 s, 68.731077 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:11264,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):469.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):68.615403,TotalRunTime(s):0.001528,WSS(MiB):0.010735,
+Thread 0: 0.000000 s, 70.444049 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:16384,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):682.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):69.922900,TotalRunTime(s):0.002180,WSS(MiB):0.015610,
+Thread 0: 0.000000 s, 73.852481 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:21504,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):896.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):73.761855,TotalRunTime(s):0.002715,WSS(MiB):0.020508,
+Thread 0: 0.000000 s, 71.335647 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:26624,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):1109.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):71.270051,TotalRunTime(s):0.003478,WSS(MiB):0.025383,
+Thread 0: 0.000000 s, 74.785507 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:31744,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):1322.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):74.710652,TotalRunTime(s):0.003955,WSS(MiB):0.030258,
+Thread 0: 0.000001 s, 57.434600 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:40960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):1706.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):57.401393,TotalRunTime(s):0.006643,WSS(MiB):0.039047,
+Thread 0: 0.000001 s, 58.516716 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:56320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):2346.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):58.497128,TotalRunTime(s):0.008964,WSS(MiB):0.053696,
+Thread 0: 0.000001 s, 58.141919 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:71680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):2986.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):58.122937,TotalRunTime(s):0.011483,WSS(MiB):0.068344,
+Thread 0: 0.000001 s, 59.207555 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:87040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):3626.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):59.192655,TotalRunTime(s):0.013692,WSS(MiB):0.082993,
+Thread 0: 0.000002 s, 60.082670 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:102400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):4266.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):60.072323,TotalRunTime(s):0.015873,WSS(MiB):0.097641,
+Thread 0: 0.000002 s, 60.358992 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:117760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):4906.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):60.348164,TotalRunTime(s):0.018171,WSS(MiB):0.112289,
+Thread 0: 0.000002 s, 60.761189 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:133120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):5546.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):60.751008,TotalRunTime(s):0.020405,WSS(MiB):0.126938,
+Thread 0: 0.000002 s, 60.772250 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:148480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):6186.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):60.763980,TotalRunTime(s):0.022755,WSS(MiB):0.141586,
+Thread 0: 0.000003 s, 60.855747 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:163840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):6826.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):60.849070,TotalRunTime(s):0.025074,WSS(MiB):0.156235,
+Thread 0: 0.000003 s, 60.576913 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:179200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):7466.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):60.570757,TotalRunTime(s):0.027551,WSS(MiB):0.170883,
+Thread 0: 0.000003 s, 60.804610 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:194560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8106.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):60.797432,TotalRunTime(s):0.029801,WSS(MiB):0.185532,
+Thread 0: 0.000003 s, 60.875135 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:209920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8746.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):60.869121,TotalRunTime(s):0.032116,WSS(MiB):0.200180,
+Thread 0: 0.000003 s, 60.578535 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:225280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):9386.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):60.572555,TotalRunTime(s):0.034635,WSS(MiB):0.214828,
+Thread 0: 0.000004 s, 60.867671 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:240640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):10026.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):60.862984,TotalRunTime(s):0.036820,WSS(MiB):0.229477,
+Thread 0: 0.000004 s, 60.828368 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:256000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):10666.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):60.823449,TotalRunTime(s):0.039196,WSS(MiB):0.244125,
+Thread 0: 0.000004 s, 60.818423 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:271360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11306.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):60.814591,TotalRunTime(s):0.041554,WSS(MiB):0.258774,
+Thread 0: 0.000004 s, 60.806551 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:286720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11946.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):60.801072,TotalRunTime(s):0.043916,WSS(MiB):0.273422,
+Thread 0: 0.000005 s, 60.795050 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:302080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):12586.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):60.790185,TotalRunTime(s):0.046277,WSS(MiB):0.288071,
+Thread 0: 0.000005 s, 60.728034 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:317440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):13226.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):60.724395,TotalRunTime(s):0.048683,WSS(MiB):0.302719,
+Thread 0: 0.000005 s, 60.728404 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:332800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):13866.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):60.724029,TotalRunTime(s):0.051039,WSS(MiB):0.317368,
+Thread 0: 0.000005 s, 60.723851 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:348160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):14506.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):60.720170,TotalRunTime(s):0.053398,WSS(MiB):0.332016,
+Thread 0: 0.000006 s, 60.072138 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:363520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):15146.000000,AvgTestRunTime(s):0.000006,CumulativeMemoryBandwidth(GiB/s):60.068341,TotalRunTime(s):0.056359,WSS(MiB):0.346664,
+Thread 0: 0.000006 s, 60.679109 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:378880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):15786.000000,AvgTestRunTime(s):0.000006,CumulativeMemoryBandwidth(GiB/s):60.676303,TotalRunTime(s):0.058152,WSS(MiB):0.361313,
+Thread 0: 0.000006 s, 56.585470 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:394240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):16426.000000,AvgTestRunTime(s):0.000006,CumulativeMemoryBandwidth(GiB/s):56.582066,TotalRunTime(s):0.064888,WSS(MiB):0.375961,
+Thread 0: 0.000007 s, 56.643587 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:409600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):17066.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):56.640169,TotalRunTime(s):0.067347,WSS(MiB):0.390610,
+Thread 0: 0.000007 s, 56.789943 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:424960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):17706.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):56.787081,TotalRunTime(s):0.069692,WSS(MiB):0.405258,
+Thread 0: 0.000007 s, 56.888886 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:440320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):18346.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):56.885646,TotalRunTime(s):0.072086,WSS(MiB):0.419907,
+Thread 0: 0.000007 s, 56.658234 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:455680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):18986.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):56.655234,TotalRunTime(s):0.074904,WSS(MiB):0.434555,
+Thread 0: 0.000008 s, 56.550582 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:471040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):19626.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):56.547692,TotalRunTime(s):0.077576,WSS(MiB):0.449203,
+Thread 0: 0.000008 s, 56.565479 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:486400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20266.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):56.563098,TotalRunTime(s):0.080084,WSS(MiB):0.463852,
+Thread 0: 0.000008 s, 56.336103 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:501760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20906.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):56.334127,TotalRunTime(s):0.082949,WSS(MiB):0.478500,
+Thread 0: 0.000009 s, 56.273061 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:517120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):21546.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):56.271155,TotalRunTime(s):0.085584,WSS(MiB):0.493149,
+Thread 0: 0.000009 s, 55.192872 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:532480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22186.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):55.190812,TotalRunTime(s):0.089851,WSS(MiB):0.507797,
+Thread 0: 0.000009 s, 56.579066 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:547840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22826.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):56.577079,TotalRunTime(s):0.090178,WSS(MiB):0.522446,
+Thread 0: 0.000010 s, 55.086684 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:563200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):23466.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):55.084783,TotalRunTime(s):0.095218,WSS(MiB):0.537094,
+Thread 0: 0.000010 s, 54.871990 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:578560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24106.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):54.869766,TotalRunTime(s):0.098198,WSS(MiB):0.551743,
+Thread 0: 0.000010 s, 56.107123 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:593920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24746.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):56.105033,TotalRunTime(s):0.098586,WSS(MiB):0.566391,
+Thread 0: 0.000010 s, 54.260858 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:609280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):25386.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):54.258677,TotalRunTime(s):0.104577,WSS(MiB):0.581039,
+Thread 0: 0.000010 s, 56.664311 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:624640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26026.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):56.662614,TotalRunTime(s):0.102665,WSS(MiB):0.595688,
+Thread 0: 0.000011 s, 55.077162 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:640000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26666.000000,AvgTestRunTime(s):0.000011,CumulativeMemoryBandwidth(GiB/s):55.075378,TotalRunTime(s):0.108221,WSS(MiB):0.610336,
+Thread 0: 0.000011 s, 56.595467 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:655360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27306.000000,AvgTestRunTime(s):0.000011,CumulativeMemoryBandwidth(GiB/s):56.593340,TotalRunTime(s):0.107846,WSS(MiB):0.624985,
+Thread 0: 0.000011 s, 56.450564 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:670720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27946.000000,AvgTestRunTime(s):0.000011,CumulativeMemoryBandwidth(GiB/s):56.448963,TotalRunTime(s):0.110656,WSS(MiB):0.639633,
+Thread 0: 0.000011 s, 56.730540 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:686080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):28586.000000,AvgTestRunTime(s):0.000011,CumulativeMemoryBandwidth(GiB/s):56.729300,TotalRunTime(s):0.112631,WSS(MiB):0.654282,
+Thread 0: 0.000012 s, 56.375907 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:701440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29226.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):56.374067,TotalRunTime(s):0.115878,WSS(MiB):0.668930,
+Thread 0: 0.000012 s, 56.611165 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:716800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29866.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):56.609567,TotalRunTime(s):0.117923,WSS(MiB):0.683578,
+Thread 0: 0.000012 s, 56.690703 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:732160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30506.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):56.689115,TotalRunTime(s):0.120281,WSS(MiB):0.698227,
+Thread 0: 0.000012 s, 56.551874 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:747520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31146.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):56.550236,TotalRunTime(s):0.123106,WSS(MiB):0.712875,
+Thread 0: 0.000013 s, 55.076671 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:762880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31786.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):55.074898,TotalRunTime(s):0.129001,WSS(MiB):0.727524,
+Thread 0: 0.000013 s, 54.360743 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:778240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32426.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):54.359245,TotalRunTime(s):0.133331,WSS(MiB):0.742172,
+Thread 0: 0.000014 s, 51.023264 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:793600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33066.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):51.022235,TotalRunTime(s):0.144855,WSS(MiB):0.756821,
+Thread 0: 0.000014 s, 52.204013 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:808960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33706.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):52.202588,TotalRunTime(s):0.144320,WSS(MiB):0.771469,
+Thread 0: 0.000014 s, 54.738043 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:824320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):34346.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):54.736639,TotalRunTime(s):0.140252,WSS(MiB):0.786118,
+Thread 0: 0.000014 s, 54.778789 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:839680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):34986.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):54.777462,TotalRunTime(s):0.142759,WSS(MiB):0.800766,
+Thread 0: 0.000015 s, 52.352395 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:855040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):35626.000000,AvgTestRunTime(s):0.000015,CumulativeMemoryBandwidth(GiB/s):52.351184,TotalRunTime(s):0.152108,WSS(MiB):0.815414,
+Thread 0: 0.000014 s, 55.964656 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:870400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36266.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):55.963470,TotalRunTime(s):0.144846,WSS(MiB):0.830063,
+Thread 0: 0.000015 s, 53.563014 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:885760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36906.000000,AvgTestRunTime(s):0.000015,CumulativeMemoryBandwidth(GiB/s):53.561643,TotalRunTime(s):0.154012,WSS(MiB):0.844711,
+Thread 0: 0.000017 s, 50.409655 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:901120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):37546.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):50.408683,TotalRunTime(s):0.166483,WSS(MiB):0.859360,
+Thread 0: 0.000016 s, 52.007696 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:916480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38186.000000,AvgTestRunTime(s):0.000016,CumulativeMemoryBandwidth(GiB/s):52.006687,TotalRunTime(s):0.164118,WSS(MiB):0.874008,
+Thread 0: 0.000017 s, 51.132262 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:931840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38826.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):51.130904,TotalRunTime(s):0.169727,WSS(MiB):0.888657,
+Thread 0: 0.000018 s, 48.919168 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:947200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):39466.000000,AvgTestRunTime(s):0.000018,CumulativeMemoryBandwidth(GiB/s):48.918001,TotalRunTime(s):0.180329,WSS(MiB):0.903305,
+Thread 0: 0.000017 s, 52.992355 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:962560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40106.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):52.991049,TotalRunTime(s):0.169168,WSS(MiB):0.917953,
+Thread 0: 0.000017 s, 52.498708 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:977920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40746.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):52.497341,TotalRunTime(s):0.173484,WSS(MiB):0.932602,
+Thread 0: 0.000019 s, 49.118707 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:993280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41386.000000,AvgTestRunTime(s):0.000019,CumulativeMemoryBandwidth(GiB/s):49.117796,TotalRunTime(s):0.188333,WSS(MiB):0.947250,
+Thread 0: 0.000019 s, 48.893479 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:1008640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42026.000000,AvgTestRunTime(s):0.000019,CumulativeMemoryBandwidth(GiB/s):48.892366,TotalRunTime(s):0.192127,WSS(MiB):0.961899,
+Thread 0: 0.000021 s, 45.519017 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:1024000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42666.000000,AvgTestRunTime(s):0.000021,CumulativeMemoryBandwidth(GiB/s):45.518337,TotalRunTime(s):0.209511,WSS(MiB):0.976547,
+Thread 0: 0.000020 s, 47.692155 GiB/s 
+Executable:./../bin/adapt_membench_triad_upgraded,wss:1039360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43306.000000,AvgTestRunTime(s):0.000020,CumulativeMemoryBandwidth(GiB/s):47.691199,TotalRunTime(s):0.202965,WSS(MiB):0.991196,

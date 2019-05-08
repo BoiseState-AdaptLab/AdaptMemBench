@@ -1,0 +1,14 @@
+# Tx|x|16|--Tx or -x, tile size in the x direction|999|int
+# Ty|y|32|--Ty or -y, tile size in the y direction|888|int
+
+Domain_run := [n] -> {
+    STM_2DS_run[j,i] : i <= n and i >= 1 and j<=n and j >= 1;
+};
+
+Tiling := [n] -> {
+    STM_2DS_run[j,i] -> STM_2DS_run[tj,ti,j,i]:exists rj,ri: 
+                                               0<=rj<888 and j=tj*888+rj
+                                           and 0<=ri<999 and i=ti*999+ri;
+};
+
+codegen (Tiling * Domain_run);

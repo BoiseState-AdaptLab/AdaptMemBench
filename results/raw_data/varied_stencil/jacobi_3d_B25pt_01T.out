@@ -1,0 +1,423 @@
+Thread 0: 0.000001 s, 0.880939 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1024,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):4.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):0.880747,TotalRunTime(s):0.010828,WSS(MiB):0.000977,
+Thread 0: 0.000004 s, 1.269064 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:6144,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):7.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):1.268957,TotalRunTime(s):0.040278,WSS(MiB):0.005234,
+Thread 0: 0.000005 s, 1.441685 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:11264,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):1.441604,TotalRunTime(s):0.052923,WSS(MiB):0.007812,
+Thread 0: 0.000009 s, 1.593043 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:16384,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):10.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):1.592990,TotalRunTime(s):0.093542,WSS(MiB):0.015259,
+Thread 0: 0.000013 s, 1.516269 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:21504,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):1.516224,TotalRunTime(s):0.130808,WSS(MiB):0.020309,
+Thread 0: 0.000013 s, 1.517897 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:26624,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):1.517851,TotalRunTime(s):0.130668,WSS(MiB):0.020309,
+Thread 0: 0.000016 s, 1.635903 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:31744,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):12.000000,AvgTestRunTime(s):0.000016,CumulativeMemoryBandwidth(GiB/s):1.635868,TotalRunTime(s):0.157404,WSS(MiB):0.026367,
+Thread 0: 0.000021 s, 1.586271 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:40960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):13.000000,AvgTestRunTime(s):0.000021,CumulativeMemoryBandwidth(GiB/s):1.586250,TotalRunTime(s):0.206385,WSS(MiB):0.033524,
+Thread 0: 0.000031 s, 1.640391 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:56320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):15.000000,AvgTestRunTime(s):0.000031,CumulativeMemoryBandwidth(GiB/s):1.640375,TotalRunTime(s):0.306585,WSS(MiB):0.051498,
+Thread 0: 0.000035 s, 1.746779 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:71680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):16.000000,AvgTestRunTime(s):0.000035,CumulativeMemoryBandwidth(GiB/s):1.746761,TotalRunTime(s):0.349419,WSS(MiB):0.062500,
+Thread 0: 0.000042 s, 1.760522 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:87040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):17.000000,AvgTestRunTime(s):0.000042,CumulativeMemoryBandwidth(GiB/s):1.760506,TotalRunTime(s):0.415843,WSS(MiB):0.074966,
+Thread 0: 0.000047 s, 1.867688 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:102400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):18.000000,AvgTestRunTime(s):0.000047,CumulativeMemoryBandwidth(GiB/s):1.867676,TotalRunTime(s):0.465303,WSS(MiB):0.088989,
+Thread 0: 0.000057 s, 1.787890 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:117760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):19.000000,AvgTestRunTime(s):0.000057,CumulativeMemoryBandwidth(GiB/s):1.787878,TotalRunTime(s):0.571667,WSS(MiB):0.104660,
+Thread 0: 0.000063 s, 1.877529 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:133120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20.000000,AvgTestRunTime(s):0.000063,CumulativeMemoryBandwidth(GiB/s):1.877519,TotalRunTime(s):0.634930,WSS(MiB):0.122070,
+Thread 0: 0.000075 s, 1.847648 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:148480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):21.000000,AvgTestRunTime(s):0.000075,CumulativeMemoryBandwidth(GiB/s):1.847640,TotalRunTime(s):0.746897,WSS(MiB):0.141312,
+Thread 0: 0.000074 s, 1.856622 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:163840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):21.000000,AvgTestRunTime(s):0.000074,CumulativeMemoryBandwidth(GiB/s):1.856614,TotalRunTime(s):0.743287,WSS(MiB):0.141312,
+Thread 0: 0.000082 s, 1.931751 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:179200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22.000000,AvgTestRunTime(s):0.000082,CumulativeMemoryBandwidth(GiB/s):1.931743,TotalRunTime(s):0.821370,WSS(MiB):0.162476,
+Thread 0: 0.000082 s, 1.930976 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:194560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22.000000,AvgTestRunTime(s):0.000082,CumulativeMemoryBandwidth(GiB/s):1.930969,TotalRunTime(s):0.821699,WSS(MiB):0.162476,
+Thread 0: 0.000096 s, 1.883635 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:209920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):23.000000,AvgTestRunTime(s):0.000096,CumulativeMemoryBandwidth(GiB/s):1.883628,TotalRunTime(s):0.962517,WSS(MiB):0.185654,
+Thread 0: 0.000108 s, 1.912106 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:225280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24.000000,AvgTestRunTime(s):0.000108,CumulativeMemoryBandwidth(GiB/s):1.912099,TotalRunTime(s):1.077317,WSS(MiB):0.210938,
+Thread 0: 0.000108 s, 1.911239 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:240640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24.000000,AvgTestRunTime(s):0.000108,CumulativeMemoryBandwidth(GiB/s):1.911233,TotalRunTime(s):1.077805,WSS(MiB):0.210938,
+Thread 0: 0.000125 s, 1.860359 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:256000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):25.000000,AvgTestRunTime(s):0.000125,CumulativeMemoryBandwidth(GiB/s):1.860353,TotalRunTime(s):1.251540,WSS(MiB):0.238419,
+Thread 0: 0.000126 s, 1.840566 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:271360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):25.000000,AvgTestRunTime(s):0.000126,CumulativeMemoryBandwidth(GiB/s):1.840561,TotalRunTime(s):1.264998,WSS(MiB):0.238419,
+Thread 0: 0.000136 s, 1.921489 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:286720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26.000000,AvgTestRunTime(s):0.000136,CumulativeMemoryBandwidth(GiB/s):1.921483,TotalRunTime(s):1.363024,WSS(MiB):0.268188,
+Thread 0: 0.000136 s, 1.924683 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:302080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26.000000,AvgTestRunTime(s):0.000136,CumulativeMemoryBandwidth(GiB/s):1.924679,TotalRunTime(s):1.360761,WSS(MiB):0.268188,
+Thread 0: 0.000156 s, 1.882918 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:317440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27.000000,AvgTestRunTime(s):0.000156,CumulativeMemoryBandwidth(GiB/s):1.882914,TotalRunTime(s):1.557690,WSS(MiB):0.300339,
+Thread 0: 0.000157 s, 1.869412 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:332800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27.000000,AvgTestRunTime(s):0.000157,CumulativeMemoryBandwidth(GiB/s):1.869407,TotalRunTime(s):1.568944,WSS(MiB):0.300339,
+Thread 0: 0.000156 s, 1.882260 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:348160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27.000000,AvgTestRunTime(s):0.000156,CumulativeMemoryBandwidth(GiB/s):1.882255,TotalRunTime(s):1.558235,WSS(MiB):0.300339,
+Thread 0: 0.000167 s, 1.962354 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:363520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):28.000000,AvgTestRunTime(s):0.000167,CumulativeMemoryBandwidth(GiB/s):1.962349,TotalRunTime(s):1.666932,WSS(MiB):0.334961,
+Thread 0: 0.000167 s, 1.960026 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:378880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):28.000000,AvgTestRunTime(s):0.000167,CumulativeMemoryBandwidth(GiB/s):1.960021,TotalRunTime(s):1.668912,WSS(MiB):0.334961,
+Thread 0: 0.000191 s, 1.903299 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:394240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29.000000,AvgTestRunTime(s):0.000191,CumulativeMemoryBandwidth(GiB/s):1.903296,TotalRunTime(s):1.909448,WSS(MiB):0.372147,
+Thread 0: 0.000190 s, 1.916951 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:409600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29.000000,AvgTestRunTime(s):0.000190,CumulativeMemoryBandwidth(GiB/s):1.916947,TotalRunTime(s):1.895850,WSS(MiB):0.372147,
+Thread 0: 0.000189 s, 1.918933 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:424960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29.000000,AvgTestRunTime(s):0.000189,CumulativeMemoryBandwidth(GiB/s):1.918926,TotalRunTime(s):1.893895,WSS(MiB):0.372147,
+Thread 0: 0.000205 s, 1.961416 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:440320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30.000000,AvgTestRunTime(s):0.000205,CumulativeMemoryBandwidth(GiB/s):1.961411,TotalRunTime(s):2.051234,WSS(MiB):0.411987,
+Thread 0: 0.000207 s, 1.947924 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:455680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30.000000,AvgTestRunTime(s):0.000207,CumulativeMemoryBandwidth(GiB/s):1.947919,TotalRunTime(s):2.065442,WSS(MiB):0.411987,
+Thread 0: 0.000206 s, 1.948441 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:471040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30.000000,AvgTestRunTime(s):0.000206,CumulativeMemoryBandwidth(GiB/s):1.948435,TotalRunTime(s):2.064895,WSS(MiB):0.411987,
+Thread 0: 0.000229 s, 1.941200 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:486400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31.000000,AvgTestRunTime(s):0.000229,CumulativeMemoryBandwidth(GiB/s):1.941196,TotalRunTime(s):2.286840,WSS(MiB):0.454575,
+Thread 0: 0.000229 s, 1.938251 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:501760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31.000000,AvgTestRunTime(s):0.000229,CumulativeMemoryBandwidth(GiB/s):1.938246,TotalRunTime(s):2.290320,WSS(MiB):0.454575,
+Thread 0: 0.000229 s, 1.939530 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:517120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31.000000,AvgTestRunTime(s):0.000229,CumulativeMemoryBandwidth(GiB/s):1.939524,TotalRunTime(s):2.288811,WSS(MiB):0.454575,
+Thread 0: 0.000247 s, 1.976701 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:532480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32.000000,AvgTestRunTime(s):0.000247,CumulativeMemoryBandwidth(GiB/s):1.976697,TotalRunTime(s):2.470188,WSS(MiB):0.500000,
+Thread 0: 0.000247 s, 1.976482 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:547840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32.000000,AvgTestRunTime(s):0.000247,CumulativeMemoryBandwidth(GiB/s):1.976477,TotalRunTime(s):2.470462,WSS(MiB):0.500000,
+Thread 0: 0.000248 s, 1.967894 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:563200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32.000000,AvgTestRunTime(s):0.000248,CumulativeMemoryBandwidth(GiB/s):1.967890,TotalRunTime(s):2.481243,WSS(MiB):0.500000,
+Thread 0: 0.000278 s, 1.925074 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:578560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33.000000,AvgTestRunTime(s):0.000278,CumulativeMemoryBandwidth(GiB/s):1.925070,TotalRunTime(s):2.781733,WSS(MiB):0.548355,
+Thread 0: 0.000277 s, 1.934258 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:593920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33.000000,AvgTestRunTime(s):0.000277,CumulativeMemoryBandwidth(GiB/s):1.934254,TotalRunTime(s):2.768525,WSS(MiB):0.548355,
+Thread 0: 0.000280 s, 1.914592 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:609280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33.000000,AvgTestRunTime(s):0.000280,CumulativeMemoryBandwidth(GiB/s):1.914588,TotalRunTime(s):2.796962,WSS(MiB):0.548355,
+Thread 0: 0.000277 s, 1.934093 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:624640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):33.000000,AvgTestRunTime(s):0.000277,CumulativeMemoryBandwidth(GiB/s):1.934088,TotalRunTime(s):2.768762,WSS(MiB):0.548355,
+Thread 0: 0.000292 s, 2.006628 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:640000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):34.000000,AvgTestRunTime(s):0.000292,CumulativeMemoryBandwidth(GiB/s):2.006624,TotalRunTime(s):2.918709,WSS(MiB):0.599731,
+Thread 0: 0.000293 s, 1.996063 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:655360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):34.000000,AvgTestRunTime(s):0.000293,CumulativeMemoryBandwidth(GiB/s):1.996060,TotalRunTime(s):2.934157,WSS(MiB):0.599731,
+Thread 0: 0.000292 s, 2.006575 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:670720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):34.000000,AvgTestRunTime(s):0.000292,CumulativeMemoryBandwidth(GiB/s):2.006571,TotalRunTime(s):2.918786,WSS(MiB):0.599731,
+Thread 0: 0.000327 s, 1.954183 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:686080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):35.000000,AvgTestRunTime(s):0.000327,CumulativeMemoryBandwidth(GiB/s):1.954180,TotalRunTime(s):3.269337,WSS(MiB):0.654221,
+Thread 0: 0.000329 s, 1.943319 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:701440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):35.000000,AvgTestRunTime(s):0.000329,CumulativeMemoryBandwidth(GiB/s):1.943315,TotalRunTime(s):3.287616,WSS(MiB):0.654221,
+Thread 0: 0.000327 s, 1.954894 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:716800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):35.000000,AvgTestRunTime(s):0.000327,CumulativeMemoryBandwidth(GiB/s):1.954891,TotalRunTime(s):3.268148,WSS(MiB):0.654221,
+Thread 0: 0.000325 s, 1.963093 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:732160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):35.000000,AvgTestRunTime(s):0.000325,CumulativeMemoryBandwidth(GiB/s):1.963090,TotalRunTime(s):3.254499,WSS(MiB):0.654221,
+Thread 0: 0.000347 s, 2.006208 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:747520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36.000000,AvgTestRunTime(s):0.000347,CumulativeMemoryBandwidth(GiB/s):2.006205,TotalRunTime(s):3.465391,WSS(MiB):0.711914,
+Thread 0: 0.000345 s, 2.013266 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:762880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36.000000,AvgTestRunTime(s):0.000345,CumulativeMemoryBandwidth(GiB/s):2.013262,TotalRunTime(s):3.453244,WSS(MiB):0.711914,
+Thread 0: 0.000345 s, 2.014464 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:778240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36.000000,AvgTestRunTime(s):0.000345,CumulativeMemoryBandwidth(GiB/s):2.014460,TotalRunTime(s):3.451190,WSS(MiB):0.711914,
+Thread 0: 0.000347 s, 2.004666 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:793600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36.000000,AvgTestRunTime(s):0.000347,CumulativeMemoryBandwidth(GiB/s):2.004663,TotalRunTime(s):3.468057,WSS(MiB):0.711914,
+Thread 0: 0.000347 s, 2.006036 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:808960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):36.000000,AvgTestRunTime(s):0.000347,CumulativeMemoryBandwidth(GiB/s):2.006033,TotalRunTime(s):3.465689,WSS(MiB):0.711914,
+Thread 0: 0.000379 s, 1.989385 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:824320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):37.000000,AvgTestRunTime(s):0.000379,CumulativeMemoryBandwidth(GiB/s):1.989374,TotalRunTime(s):3.794100,WSS(MiB):0.772903,
+Thread 0: 0.000381 s, 1.981921 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:839680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):37.000000,AvgTestRunTime(s):0.000381,CumulativeMemoryBandwidth(GiB/s):1.981919,TotalRunTime(s):3.808372,WSS(MiB):0.772903,
+Thread 0: 0.000379 s, 1.989487 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:855040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):37.000000,AvgTestRunTime(s):0.000379,CumulativeMemoryBandwidth(GiB/s):1.989484,TotalRunTime(s):3.793891,WSS(MiB):0.772903,
+Thread 0: 0.000382 s, 1.975334 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:870400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):37.000000,AvgTestRunTime(s):0.000382,CumulativeMemoryBandwidth(GiB/s):1.975331,TotalRunTime(s):3.821074,WSS(MiB):0.772903,
+Thread 0: 0.000407 s, 2.009479 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:885760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38.000000,AvgTestRunTime(s):0.000407,CumulativeMemoryBandwidth(GiB/s):2.009476,TotalRunTime(s):4.069003,WSS(MiB):0.837280,
+Thread 0: 0.000406 s, 2.013523 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:901120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38.000000,AvgTestRunTime(s):0.000406,CumulativeMemoryBandwidth(GiB/s):2.013520,TotalRunTime(s):4.060832,WSS(MiB):0.837280,
+Thread 0: 0.000409 s, 1.998295 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:916480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38.000000,AvgTestRunTime(s):0.000409,CumulativeMemoryBandwidth(GiB/s):1.998292,TotalRunTime(s):4.091776,WSS(MiB):0.837280,
+Thread 0: 0.000406 s, 2.014059 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:931840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38.000000,AvgTestRunTime(s):0.000406,CumulativeMemoryBandwidth(GiB/s):2.014057,TotalRunTime(s):4.059749,WSS(MiB):0.837280,
+Thread 0: 0.000406 s, 2.013899 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:947200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):38.000000,AvgTestRunTime(s):0.000406,CumulativeMemoryBandwidth(GiB/s):2.013896,TotalRunTime(s):4.060073,WSS(MiB):0.837280,
+Thread 0: 0.000445 s, 1.988276 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:962560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):39.000000,AvgTestRunTime(s):0.000445,CumulativeMemoryBandwidth(GiB/s):1.988273,TotalRunTime(s):4.445677,WSS(MiB):0.905136,
+Thread 0: 0.000444 s, 1.988632 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:977920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):39.000000,AvgTestRunTime(s):0.000444,CumulativeMemoryBandwidth(GiB/s):1.988630,TotalRunTime(s):4.444880,WSS(MiB):0.905136,
+Thread 0: 0.000444 s, 1.989018 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:993280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):39.000000,AvgTestRunTime(s):0.000444,CumulativeMemoryBandwidth(GiB/s):1.989016,TotalRunTime(s):4.444017,WSS(MiB):0.905136,
+Thread 0: 0.000447 s, 1.978232 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1008640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):39.000000,AvgTestRunTime(s):0.000447,CumulativeMemoryBandwidth(GiB/s):1.978229,TotalRunTime(s):4.468249,WSS(MiB):0.905136,
+Thread 0: 0.000469 s, 2.033875 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1024000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000469,CumulativeMemoryBandwidth(GiB/s):2.033872,TotalRunTime(s):4.688959,WSS(MiB):0.976562,
+Thread 0: 0.000468 s, 2.035946 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1039360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000468,CumulativeMemoryBandwidth(GiB/s):2.035943,TotalRunTime(s):4.684189,WSS(MiB):0.976562,
+Thread 0: 0.000468 s, 2.036612 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1054720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000468,CumulativeMemoryBandwidth(GiB/s):2.036610,TotalRunTime(s):4.682656,WSS(MiB):0.976562,
+Thread 0: 0.000470 s, 2.029291 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1070080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000470,CumulativeMemoryBandwidth(GiB/s):2.029288,TotalRunTime(s):4.699551,WSS(MiB):0.976562,
+Thread 0: 0.000471 s, 2.023519 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1085440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000471,CumulativeMemoryBandwidth(GiB/s):2.023516,TotalRunTime(s):4.712957,WSS(MiB):0.976562,
+Thread 0: 0.000469 s, 2.033905 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1100800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):40.000000,AvgTestRunTime(s):0.000469,CumulativeMemoryBandwidth(GiB/s):2.033903,TotalRunTime(s):4.688888,WSS(MiB):0.976562,
+Thread 0: 0.000517 s, 1.986096 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1116160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41.000000,AvgTestRunTime(s):0.000517,CumulativeMemoryBandwidth(GiB/s):1.986094,TotalRunTime(s):5.170969,WSS(MiB):1.051651,
+Thread 0: 0.000518 s, 1.982416 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1131520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41.000000,AvgTestRunTime(s):0.000518,CumulativeMemoryBandwidth(GiB/s):1.982414,TotalRunTime(s):5.180567,WSS(MiB):1.051651,
+Thread 0: 0.000519 s, 1.977922 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1146880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41.000000,AvgTestRunTime(s):0.000519,CumulativeMemoryBandwidth(GiB/s):1.977919,TotalRunTime(s):5.192340,WSS(MiB):1.051651,
+Thread 0: 0.000517 s, 1.986260 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1162240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41.000000,AvgTestRunTime(s):0.000517,CumulativeMemoryBandwidth(GiB/s):1.986258,TotalRunTime(s):5.170542,WSS(MiB):1.051651,
+Thread 0: 0.000518 s, 1.981011 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1177600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):41.000000,AvgTestRunTime(s):0.000518,CumulativeMemoryBandwidth(GiB/s):1.981009,TotalRunTime(s):5.184241,WSS(MiB):1.051651,
+Thread 0: 0.000542 s, 2.035643 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1192960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000542,CumulativeMemoryBandwidth(GiB/s):2.035641,TotalRunTime(s):5.423340,WSS(MiB):1.130493,
+Thread 0: 0.000544 s, 2.029599 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1208320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000544,CumulativeMemoryBandwidth(GiB/s):2.029597,TotalRunTime(s):5.439489,WSS(MiB):1.130493,
+Thread 0: 0.000542 s, 2.036447 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1223680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000542,CumulativeMemoryBandwidth(GiB/s):2.036445,TotalRunTime(s):5.421199,WSS(MiB):1.130493,
+Thread 0: 0.000543 s, 2.031480 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1239040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000543,CumulativeMemoryBandwidth(GiB/s):2.031478,TotalRunTime(s):5.434453,WSS(MiB):1.130493,
+Thread 0: 0.000544 s, 2.031207 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1254400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000544,CumulativeMemoryBandwidth(GiB/s):2.031205,TotalRunTime(s):5.435183,WSS(MiB):1.130493,
+Thread 0: 0.000542 s, 2.036151 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1269760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):42.000000,AvgTestRunTime(s):0.000542,CumulativeMemoryBandwidth(GiB/s):2.036149,TotalRunTime(s):5.421987,WSS(MiB):1.130493,
+Thread 0: 0.000586 s, 2.022683 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1285120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000586,CumulativeMemoryBandwidth(GiB/s):2.022681,TotalRunTime(s):5.857309,WSS(MiB):1.213181,
+Thread 0: 0.000585 s, 2.024065 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1300480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000585,CumulativeMemoryBandwidth(GiB/s):2.024063,TotalRunTime(s):5.853309,WSS(MiB):1.213181,
+Thread 0: 0.000586 s, 2.022286 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1315840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000586,CumulativeMemoryBandwidth(GiB/s):2.022284,TotalRunTime(s):5.858459,WSS(MiB):1.213181,
+Thread 0: 0.000586 s, 2.022517 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1331200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000586,CumulativeMemoryBandwidth(GiB/s):2.022515,TotalRunTime(s):5.857790,WSS(MiB):1.213181,
+Thread 0: 0.000587 s, 2.017439 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1346560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000587,CumulativeMemoryBandwidth(GiB/s):2.017436,TotalRunTime(s):5.872535,WSS(MiB):1.213181,
+Thread 0: 0.000588 s, 2.014398 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1361920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):43.000000,AvgTestRunTime(s):0.000588,CumulativeMemoryBandwidth(GiB/s):2.014396,TotalRunTime(s):5.881398,WSS(MiB):1.213181,
+Thread 0: 0.000617 s, 2.057064 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1377280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000617,CumulativeMemoryBandwidth(GiB/s):2.057062,TotalRunTime(s):6.170647,WSS(MiB):1.299805,
+Thread 0: 0.000619 s, 2.050004 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1392640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000619,CumulativeMemoryBandwidth(GiB/s):2.050002,TotalRunTime(s):6.191898,WSS(MiB):1.299805,
+Thread 0: 0.000618 s, 2.052389 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1408000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000618,CumulativeMemoryBandwidth(GiB/s):2.052387,TotalRunTime(s):6.184704,WSS(MiB):1.299805,
+Thread 0: 0.000616 s, 2.060967 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1423360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000616,CumulativeMemoryBandwidth(GiB/s):2.060965,TotalRunTime(s):6.158963,WSS(MiB):1.299805,
+Thread 0: 0.000616 s, 2.060189 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1438720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000616,CumulativeMemoryBandwidth(GiB/s):2.060187,TotalRunTime(s):6.161288,WSS(MiB):1.299805,
+Thread 0: 0.000619 s, 2.051236 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1454080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):44.000000,AvgTestRunTime(s):0.000619,CumulativeMemoryBandwidth(GiB/s):2.051234,TotalRunTime(s):6.188181,WSS(MiB):1.299805,
+Thread 0: 0.000676 s, 2.008520 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1469440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000676,CumulativeMemoryBandwidth(GiB/s):2.008518,TotalRunTime(s):6.760547,WSS(MiB):1.390457,
+Thread 0: 0.000675 s, 2.010448 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1484800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000675,CumulativeMemoryBandwidth(GiB/s):2.010447,TotalRunTime(s):6.754063,WSS(MiB):1.390457,
+Thread 0: 0.000675 s, 2.010561 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1500160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000675,CumulativeMemoryBandwidth(GiB/s):2.010559,TotalRunTime(s):6.753685,WSS(MiB):1.390457,
+Thread 0: 0.000675 s, 2.010220 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1515520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000675,CumulativeMemoryBandwidth(GiB/s):2.010218,TotalRunTime(s):6.754831,WSS(MiB):1.390457,
+Thread 0: 0.000675 s, 2.010830 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1530880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000675,CumulativeMemoryBandwidth(GiB/s):2.010829,TotalRunTime(s):6.752780,WSS(MiB):1.390457,
+Thread 0: 0.000679 s, 2.000517 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1546240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):45.000000,AvgTestRunTime(s):0.000679,CumulativeMemoryBandwidth(GiB/s):2.000515,TotalRunTime(s):6.787593,WSS(MiB):1.390457,
+Thread 0: 0.000698 s, 2.078568 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1561600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000698,CumulativeMemoryBandwidth(GiB/s):2.078566,TotalRunTime(s):6.977982,WSS(MiB):1.485229,
+Thread 0: 0.000699 s, 2.075644 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1576960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000699,CumulativeMemoryBandwidth(GiB/s):2.075643,TotalRunTime(s):6.987808,WSS(MiB):1.485229,
+Thread 0: 0.000698 s, 2.078455 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1592320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000698,CumulativeMemoryBandwidth(GiB/s):2.078453,TotalRunTime(s):6.978360,WSS(MiB):1.485229,
+Thread 0: 0.000698 s, 2.078520 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1607680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000698,CumulativeMemoryBandwidth(GiB/s):2.078518,TotalRunTime(s):6.978141,WSS(MiB):1.485229,
+Thread 0: 0.000699 s, 2.075189 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1623040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000699,CumulativeMemoryBandwidth(GiB/s):2.075187,TotalRunTime(s):6.989342,WSS(MiB):1.485229,
+Thread 0: 0.000699 s, 2.074414 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1638400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000699,CumulativeMemoryBandwidth(GiB/s):2.074412,TotalRunTime(s):6.991954,WSS(MiB):1.485229,
+Thread 0: 0.000701 s, 2.068375 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1653760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):46.000000,AvgTestRunTime(s):0.000701,CumulativeMemoryBandwidth(GiB/s):2.068374,TotalRunTime(s):7.012367,WSS(MiB):1.485229,
+Thread 0: 0.000767 s, 2.016128 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1669120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000767,CumulativeMemoryBandwidth(GiB/s):2.016126,TotalRunTime(s):7.673543,WSS(MiB):1.584213,
+Thread 0: 0.000767 s, 2.016584 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1684480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000767,CumulativeMemoryBandwidth(GiB/s):2.016582,TotalRunTime(s):7.671808,WSS(MiB):1.584213,
+Thread 0: 0.000766 s, 2.019493 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1699840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000766,CumulativeMemoryBandwidth(GiB/s):2.019491,TotalRunTime(s):7.660757,WSS(MiB):1.584213,
+Thread 0: 0.000770 s, 2.009226 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1715200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000770,CumulativeMemoryBandwidth(GiB/s):2.009225,TotalRunTime(s):7.699901,WSS(MiB):1.584213,
+Thread 0: 0.000765 s, 2.022823 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1730560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000765,CumulativeMemoryBandwidth(GiB/s):2.022822,TotalRunTime(s):7.648145,WSS(MiB):1.584213,
+Thread 0: 0.000766 s, 2.020701 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1745920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000766,CumulativeMemoryBandwidth(GiB/s):2.020699,TotalRunTime(s):7.656179,WSS(MiB):1.584213,
+Thread 0: 0.000765 s, 2.023185 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1761280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):47.000000,AvgTestRunTime(s):0.000765,CumulativeMemoryBandwidth(GiB/s):2.023183,TotalRunTime(s):7.646778,WSS(MiB):1.584213,
+Thread 0: 0.000796 s, 2.070555 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1776640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000796,CumulativeMemoryBandwidth(GiB/s):2.070554,TotalRunTime(s):7.958979,WSS(MiB):1.687500,
+Thread 0: 0.000793 s, 2.078475 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1792000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000793,CumulativeMemoryBandwidth(GiB/s):2.078473,TotalRunTime(s):7.928652,WSS(MiB):1.687500,
+Thread 0: 0.000793 s, 2.078634 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1807360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000793,CumulativeMemoryBandwidth(GiB/s):2.078632,TotalRunTime(s):7.928046,WSS(MiB):1.687500,
+Thread 0: 0.000794 s, 2.074414 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1822720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000794,CumulativeMemoryBandwidth(GiB/s):2.074413,TotalRunTime(s):7.944172,WSS(MiB):1.687500,
+Thread 0: 0.000794 s, 2.075168 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1838080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000794,CumulativeMemoryBandwidth(GiB/s):2.075167,TotalRunTime(s):7.941285,WSS(MiB):1.687500,
+Thread 0: 0.000795 s, 2.072525 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1853440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000795,CumulativeMemoryBandwidth(GiB/s):2.072523,TotalRunTime(s):7.951414,WSS(MiB):1.687500,
+Thread 0: 0.000794 s, 2.075019 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1868800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):48.000000,AvgTestRunTime(s):0.000794,CumulativeMemoryBandwidth(GiB/s):2.075018,TotalRunTime(s):7.941856,WSS(MiB):1.687500,
+Thread 0: 0.000864 s, 2.029887 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1884160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000864,CumulativeMemoryBandwidth(GiB/s):2.029886,TotalRunTime(s):8.636479,WSS(MiB):1.795181,
+Thread 0: 0.000862 s, 2.034417 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1899520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000862,CumulativeMemoryBandwidth(GiB/s):2.034415,TotalRunTime(s):8.617251,WSS(MiB):1.795181,
+Thread 0: 0.000865 s, 2.027770 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1914880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000865,CumulativeMemoryBandwidth(GiB/s):2.027768,TotalRunTime(s):8.645499,WSS(MiB):1.795181,
+Thread 0: 0.000865 s, 2.027536 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1930240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000865,CumulativeMemoryBandwidth(GiB/s):2.027534,TotalRunTime(s):8.646496,WSS(MiB):1.795181,
+Thread 0: 0.000864 s, 2.030103 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1945600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000864,CumulativeMemoryBandwidth(GiB/s):2.030101,TotalRunTime(s):8.635562,WSS(MiB):1.795181,
+Thread 0: 0.000865 s, 2.026078 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1960960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000865,CumulativeMemoryBandwidth(GiB/s):2.026077,TotalRunTime(s):8.652717,WSS(MiB):1.795181,
+Thread 0: 0.000864 s, 2.030168 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1976320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000864,CumulativeMemoryBandwidth(GiB/s):2.030167,TotalRunTime(s):8.635284,WSS(MiB):1.795181,
+Thread 0: 0.000865 s, 2.026903 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:1991680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):49.000000,AvgTestRunTime(s):0.000865,CumulativeMemoryBandwidth(GiB/s):2.026901,TotalRunTime(s):8.649197,WSS(MiB):1.795181,
+Thread 0: 0.000907 s, 2.053135 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2007040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000907,CumulativeMemoryBandwidth(GiB/s):2.053134,TotalRunTime(s):9.072206,WSS(MiB):1.907349,
+Thread 0: 0.000907 s, 2.053306 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2022400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000907,CumulativeMemoryBandwidth(GiB/s):2.053305,TotalRunTime(s):9.071450,WSS(MiB):1.907349,
+Thread 0: 0.000907 s, 2.053629 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2037760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000907,CumulativeMemoryBandwidth(GiB/s):2.053628,TotalRunTime(s):9.070022,WSS(MiB):1.907349,
+Thread 0: 0.000909 s, 2.050221 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2053120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000909,CumulativeMemoryBandwidth(GiB/s):2.050220,TotalRunTime(s):9.085100,WSS(MiB):1.907349,
+Thread 0: 0.000907 s, 2.053144 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2068480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000907,CumulativeMemoryBandwidth(GiB/s):2.053143,TotalRunTime(s):9.072166,WSS(MiB):1.907349,
+Thread 0: 0.000908 s, 2.052404 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_B25pt,wss:2083840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):50.000000,AvgTestRunTime(s):0.000908,CumulativeMemoryBandwidth(GiB/s):2.052403,TotalRunTime(s):9.075436,WSS(MiB):1.907349,

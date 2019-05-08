@@ -1,0 +1,219 @@
+/* Driver code for benchmarking ADAPT_TEMPLATE with PAPI enabled */
+
+#include<stdio.h>
+#include<omp.h>
+#include<sys/time.h>
+#include<time.h>
+#include<stdlib.h>
+#include<getopt.h>
+#include<string.h>
+#include<ctype.h>
+#include<iostream>
+#include<math.h>
+#include "../common/Configuration.h"
+#include "../common/Measurements.h"
+#include <cassert>
+#include "papi.h"
+
+#define min(a,b) (((a)<(b))?(a):(b))
+#define intDiv_(x,y)  ((((x)%(y))>=0) ? ((x)/(y)) : (((x)/(y)) -1))
+#define floord(n, d)  intDiv_((n), (d))
+
+/*******************************************************************************
+ * This include will be changed depending on the benchmark
+ ******************************************************************************/
+#include "ADAPT_TEMPLATE_unifiedDS.h"
+
+using namespace std;
+
+/*******************************************************************************
+ * Prototypes of functions used in the benchmark
+ ******************************************************************************/
+void add_command_line(Configuration& configuration);
+void add_command_line_sched(Configuration& configuration);
+void run_benchmark(Configuration& configuration, Measurements& measurements);
+bool verify_code(int ntimes,Measurements&measurements,double *a, double *b);
+double get_time();
+bool setNumThreads(int nThreads);
+
+
+/*******************************************************************************
+ * Main parses cmd line args, invokes run_benchmark and prints results
+ ******************************************************************************/
+int main(int argc, char **argv) {
+  // 1 - standard input and output for our benchmarks
+  Configuration configuration;
+  Measurements measurements; 
+
+  // 2 - grab the command line variables we need
+  add_command_line(configuration);  
+  add_command_line_sched(configuration);
+  configuration.parse(argc,argv);
+
+  // 3 - run the benchmark
+  run_benchmark(configuration, measurements);
+
+  // 4 - print the configuration and measurements
+  string input_config = configuration.toLDAPString();
+  cout << input_config << endl;
+  cout << measurements.toLDAPString() << endl;
+}
+
+/*******************************************************************************
+ *  add_command_line add command line arguments to Configuration
+ ******************************************************************************/
+void add_command_line(Configuration& configuration){
+  configuration.addParamInt("wss",'I', 10248576,
+                  "--wss or -I, the initial working set size in bytes");
+  configuration.addParamInt("num_threads",'T', omp_get_max_threads(),
+                  "--num_threads or -T, number of threads");
+  configuration.addParamInt("ntimes",'N', 1000,
+                  "--ntimes or -N, the number of times the kernel is run for a working set size");
+}
+
+/*******************************************************************************
+ * The actual benchmark is executed here
+ ******************************************************************************/
+void run_benchmark(Configuration& configuration, Measurements& measurement){
+
+  long int k, i; 
+  int num_threads = configuration.getInt("num_threads");
+  setNumThreads(num_threads);
+  int ntimes = configuration.getInt("ntimes");
+
+  int events[3] = {PAPI_L1_DCM, PAPI_CA_SHR, PAPI_CA_CLN }, ret;
+
+  long_long values[3];
+
+  if (PAPI_num_counters() < 3) {
+   fprintf(stderr, "No hardware counters here, or PAPI not supported.\n");
+   exit(1);
+  }
+
+  // add generated code that defines sched params here
+  
+
+  //Number of elements n and actual WSS are calculated in ADAPT_TEMPLATE.h
+  long n = STM_FUNC_calcn(configuration.getInt("wss"));
+  double actualWSS = STM_FUNC_calcActualWSS(n);
+
+  // allocate the memory for the benchmark
+  #ifdef STM_alloc
+    STM_alloc
+  #else
+    assert (false);
+  #endif
+ 
+  // prepare to take measurements
+  double exec_time, mem_bandwidth;
+  double init_thread_time[num_threads];
+  double per_thread_time[num_threads]; 
+
+  //Initaliaze the arrays
+  #pragma omp parallel for
+  #include "ADAPT_TEMPLATE_init.c"
+ 
+  // start the actual measured part of the run 
+  double init_time = get_time();
+  
+   if ((ret = PAPI_start_counters(events, 3)) != PAPI_OK) {
+    fprintf(stderr, "PAPI failed to start counters: %s\n", PAPI_strerror(ret));
+    exit(1);
+   }  
+  
+  #pragma omp parallel 
+  {
+    int t_id = omp_get_thread_num();
+    for(int kp = 0; kp < ntimes; kp++) {
+      #pragma omp for
+      #include "ADAPT_TEMPLATE_run.c"
+      if(t_id == 0)
+      {
+         STM_postrun()
+      }
+      #pragma omp barrier
+    }
+  }
+  
+  if ((ret = PAPI_stop_counters(values, 3)) != PAPI_OK) {
+      fprintf(stderr, "PAPI failed to stop counters: %s\n", PAPI_strerror(ret));
+      exit(1);
+  }
+  exec_time  = get_time() - init_time;
+  
+  //Verification of results
+  /*if(!verify_code(ntimes, measurements, A, B)){
+    return;
+  }*/
+
+  // Set the measurement results if all is OK.
+  int convert2GiB = 1024*1024*1024;
+
+  //Calculation of memory bandwidth
+  double avg_time = exec_time/(ntimes);
+  mem_bandwidth = actualWSS/avg_time; 
+  mem_bandwidth = mem_bandwidth/convert2GiB;
+
+  double papi_L1_DCM = ((float)values[0]) / (n*ntimes);
+  double papi_CA_SHR = ((float)values[1]) / (n*ntimes);
+  double papi_CA_CLN = ((float)values[2]) / (n*ntimes);
+
+  measurement.setField("n(elements)", (float)n);
+  //Recording the working set size tested
+  measurement.setField("WSS(MiB)", actualWSS/(float)(1024*1024));
+  //Recording the bandwidth found
+  measurement.setField("CumulativeMemoryBandwidth(GiB/s)", mem_bandwidth);
+  //Recording the average running time
+  measurement.setField("TotalRunTime(s)", exec_time);
+  measurement.setField("AvgTestRunTime(s)", avg_time);
+  measurement.setField("NumberOfThreads", omp_get_max_threads());
+
+  measurement.setField("PAPI_L1_DCM", papi_L1_DCM);
+  measurement.setField("PAPI_CA_SHR", papi_CA_SHR);
+  measurement.setField("PAPI_CA_CLN", papi_CA_CLN);
+
+  validate_results(configuration, measurement, A, B);
+
+  return;
+}
+
+/**
+ * get_time() returns the current system time
+ */
+double get_time(){
+    struct timeval tp;
+    gettimeofday(&tp,NULL);
+    return ( (double) tp.tv_sec + (double) tp.tv_usec * 1.e-6 );
+}	
+
+/**
+ * verify_code performs code verification
+ */
+/*bool verify_code(int ntimes, Measurements& measurements, double *A, double *B){
+  // flag_err is set in the code-gened file
+  int flag_err = 0;
+  #include "ADAPT_TEMPLATE_val.c"
+  if (flag_err == 0){
+     measurements.setField("V", "SUCCESS");
+     return true;
+  }
+  measurements.setField("V", "FAILURE");
+  return false;
+}*/
+
+/**
+ * setNumThreads assigns the number of threades to be implemented
+ *
+ */
+bool setNumThreads(int nThreads) {
+    if(nThreads > omp_get_max_threads()){
+        printf("--num_threads cannot be more than %d\n",omp_get_max_threads());
+        return false;
+    }else if (nThreads < 1){
+        printf("--num_threads cannot be less than %d\n",1);
+        return false;
+    }else{
+        omp_set_num_threads(nThreads);
+        return true;
+    }
+}

@@ -1,0 +1,208 @@
+import sys
+import os
+import subprocess
+from shutil import copyfile
+
+# VARIABLENAME|SHORT_NAME|DEFAULT_VALUE|DESCRIPTION|FIND_INT|TYPE
+# Ex.
+#
+#
+# Replace 999 with Tx in the generated file, also look for 999 - 1 and replace
+# that with Tx - 1
+#
+# In the CPP file we need to append with the following in a method named
+#
+# add_command_line_sched(configuration)
+#
+# addParamTYPE("VARIABLE_NAME",'SHORT_NAME',DEFAULT_VALUE,DESCRIPTION)
+#
+# Also in the CPP file find ADAPT_SCHED_PARAMS with
+#
+# TYPE VARIABLE_NAME = configuration.getTYPE("VARIABLE_NAME")
+#
+# NOTE: The TYPE's first letter needs to be capatalised in the last two
+# function's 
+
+class Param:
+	VARIABLENAME = ""
+	SHORT_NAME = ''
+	DEFAULT_VALUE = -1
+	DESCRIPTION = ""
+	FIND_INT = -1 
+	TYPE = ""	
+
+params = []
+
+OMP_OPT_STRING = "ADAPT_OMP_OPTS"
+
+if(len(sys.argv) < 2):
+	print("Key value missing!\nUsage:\npython adaptmembench_driver_gen.py <key value>")
+	sys.exit()
+
+params = []
+keyValue = sys.argv[1]
+if(len(keyValue.split("_"))>1):
+	keyValueStripped = keyValue.split("_")[0] + "_" + keyValue.split("_")[1]
+else:
+	keyValueStripped = keyValue
+
+#print("FULL NAME: " + keyValue)
+#print("STRIPPED NAME: " + keyValueStripped)
+
+
+
+searchFor = "ADAPT_TEMPLATE"
+searchForAlso = "ADAPT_SCHEDULE"
+
+if(len(sys.argv)>2):
+	#print("Using " + sys.argv[2] + " as the key string!\n")
+	searchFor = sys.argv[2]
+
+#print("Checking for template file...")
+
+if(os.path.isfile("../templates/adapt_membench_papi_distinctDS.template")is not True):
+	print("Template file not found(be sure it's named correctly 'adapt_membench_papi_distinctDS.template')\n")
+	sys.exit()	
+#else:
+	#print("Template file found!\n")
+
+#print("Looking for options...")
+
+
+OMP_OPTIONS = []
+
+for line in open("./" + keyValueStripped + "_distinctDS.h"):
+	if(line.find(OMP_OPT_STRING)!=-1):
+		OMP_OPTIONS = line.split("=")[1].split(",")
+		break
+
+#if(OMP_OPTIONS == []):
+#	print("OMP options not found!")
+#	sys.exit()
+
+#print("Options Found:")
+#for item in OMP_OPTIONS:
+#	print("     " + item)
+
+if(os.path.isfile("./" + keyValue + "_run.in") is not True):
+	print(keyValue + "_run.in not found!")
+else:
+	#print(keyValue + "_run.in found!")
+	#print("Running ISCC on init file!")
+	subprocess.call("iscc < ./"+keyValue+"_run.in > " +keyValue+"_run.temp",shell=True)
+
+
+if(os.path.isfile("./" + keyValue + "_run.temp")is not True):
+	print("Something went wrong when generating _run.c")
+else:
+	#print("Checking for _run options")
+	runFile = open("./" + keyValue + "_run.in")
+	for line in runFile:
+		if(line.find("#")!=-1):
+			line = line.replace("#","")
+			line = line.strip()
+				
+			items = line.split('|')
+			
+			if(len(items)>5):
+				temp = Param()
+				temp.VARIABLENAME = items[0]
+				temp.SHORT_NAME = items[1]
+				temp.DEFAULT_VALUE = items[2]
+				temp.DESCRIPTION = items[3]
+				temp.FIND_INT = items[4]
+				temp.TYPE = items[5]
+				
+				params.append(temp)
+		else:
+			break
+	
+	runCPP = open("./" + keyValue + "_run.temp")
+	newFile = open("./" + keyValue + "_run.c",'w+')
+
+	for line in runCPP:
+		for item in params:
+			#print("Looking for: " + str(item.FIND_INT))
+			#print("Looking for: " + str(int(item.FIND_INT) - 1))
+			if(line.find(str(item.FIND_INT))!=-1):
+				#print("FOUND: " + str(item.FIND_INT))
+				line = (line.replace(str(item.FIND_INT),item.VARIABLENAME))
+			if(line.find(str(int(item.FIND_INT)-1))!=-1):
+				#print("FOUND: " + str(int(item.FIND_INT)-1))
+                                line = (line.replace(str(int(item.FIND_INT)-1),"("+item.VARIABLENAME + " - 1)"))
+		newFile.write(line)
+	runCPP.close()
+	os.remove("./" + keyValue + "_run.temp")
+	newFile.close()
+	runFile.close()			
+	
+
+
+#print("Creating .cpp files from template with options...")
+
+fileNames = []
+if(len(OMP_OPTIONS)>0):
+	for item in OMP_OPTIONS:
+		if(item.find("(")!=-1 or item.find(")")!=-1):
+			tempItemName = item.replace("(","_")
+			tempItemName = tempItemName.replace(")","")
+		else:
+			tempItemName = item
+
+		tempItemName = tempItemName.strip()
+		fileNames.append(tempItemName)
+else:
+	fileNames.append("")
+OMP_INDEX = 0
+for tempItemName in fileNames:
+	newFileNameAppend = ""
+	if(tempItemName != ""):
+		newFileNameAppend = "_"+tempItemName
+	#print("Opening "+"./adapt_membench_papi_distinctDS_"+keyValue+newFileNameAppend+".cpp"+" and customizing(this is the important part)")
+
+	newFile = open("./adapt_membench_papi_distinctDS_"+keyValue+newFileNameAppend+".cpp",'w+')
+	tempFile = open("../templates/adapt_membench_papi_distinctDS.template","r")
+
+	for line in tempFile:
+		if(line.find(searchFor)!=-1):
+			#print(line)
+			newFile.write(line.replace(searchFor,keyValueStripped))
+		elif(line.find(searchForAlso)!=-1):
+			#print(line)
+			newFile.write(line.replace(searchForAlso,keyValue))
+		elif(line.find(OMP_OPT_STRING)!=-1):
+			if(len(OMP_OPTIONS)>0):
+				newFile.write(line.replace(OMP_OPT_STRING,OMP_OPTIONS[OMP_INDEX]))
+				OMP_INDEX = OMP_INDEX + 1
+			else:
+				newFile.write(line.replace(OMP_OPT_STRING,""))
+		elif(line.find("ADAPT_SCHED_PARAMS")!=-1):
+			newFile.write(line.replace("ADAPT_SCHED_PARAMS",""))
+                	for param in params:
+                        	newFile.write(param.TYPE + " " + param.VARIABLENAME + " = configuration.get" + param.TYPE.title() + "(\""+param.VARIABLENAME+"\");\n")
+		else:
+			newFile.write(line)	
+	
+	newFile.write("void add_command_line_sched(Configuration &configuration){\n")
+	#print("Creating FINAL FUNCTION")
+	for param in params:
+		newFile.write("     configuration.addParam"+param.TYPE.title()+"(\""+param.VARIABLENAME+"\",\'"+param.SHORT_NAME+"\',"+str(param.DEFAULT_VALUE)+",\""+param.DESCRIPTION+"\");\n")
+	newFile.write("}");
+
+	tempFile.close()
+	newFile.close()
+
+if(os.path.isfile("./" + keyValueStripped + "_init.in") is not True):
+	print(keyValueStripped + "_init.in not found!")
+else:
+	subprocess.call("iscc < ./"+keyValueStripped+"_init.in > " +keyValueStripped+"_init.c",shell=True)
+	#print(keyValueStripped + "_init.in found!")
+	#print("Running ISCC on init file!")
+	
+if(os.path.isfile("./" + keyValue + "_val.in") is not True):
+	print(keyValue + "_val.in not found!")
+else:
+	#print(keyValue + "_val.in found!")
+	#print("Running ISCC on init file!")
+	subprocess.call("iscc < ./"+keyValue+"_val.in > " +keyValue+"_val.c",shell=True)
+print("Generated the driver adapt_membench_papi_distinctDS_"+keyValue+newFileNameAppend+".cpp")

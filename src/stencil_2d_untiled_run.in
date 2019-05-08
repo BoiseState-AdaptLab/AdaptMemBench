@@ -1,0 +1,5 @@
+Domain_run := [n] -> {
+    STM_2DS_run[j,i] : i <= n and i >= 1 and j<=n and j >= 1;
+};
+
+codegen (Domain_run);

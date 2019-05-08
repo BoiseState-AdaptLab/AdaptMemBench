@@ -1,0 +1,191 @@
+/* Driver code for benchmark executing triad */
+
+#include<stdio.h>
+#include<omp.h>
+#include<sys/time.h>
+#include<time.h>
+#include<stdlib.h>
+#include<getopt.h>
+#include<string.h>
+#include<ctype.h>
+#include<iostream>
+#include<math.h>
+#include "../common/Configuration.h"
+#include "../common/Measurements.h"
+#include <cassert>
+#include "papi.h"
+
+#define min(a,b) (((a)<(b))?(a):(b))
+#define intDiv_(x,y)  ((((x)%(y))>=0) ? ((x)/(y)) : (((x)/(y)) -1))
+#define floord(n, d)  intDiv_((n), (d))
+
+/*******************************************************************************
+* The header file for ADAPT_TEMPLATE
+*******************************************************************************/
+#include "ADAPT_TEMPLATE_distinctDS.h"
+
+using namespace std;
+
+/*******************************************************************************
+ * Prototypes of functions used in the benchmark
+ ******************************************************************************/
+void add_command_line(Configuration& configuration);
+void add_command_line_sched(Configuration& configuration);
+void run_benchmark(Configuration& configuration, Measurements& measurements);
+bool verify_results(Configuration& configuration, Measurements& measurements, double **A, double **B);
+double get_time();
+bool setNumThreads(int nThreads);
+
+/*******************************************************************************
+ * Main parses cmd line args, invokes run_benchmark and prints results
+ ******************************************************************************/
+int main(int argc, char **argv) {
+  // 1 - standard input and output for our benchmarks
+  Configuration configuration;
+  Measurements measurements; 
+
+  // 2 - grab the command line variables we need
+  add_command_line(configuration);  
+  add_command_line_sched(configuration);
+  configuration.parse(argc,argv);
+
+  // 3 - run the benchmark
+  run_benchmark(configuration, measurements);
+
+  // 4 - print the configuration and measurements
+  string input_config = configuration.toLDAPString();
+  cout << input_config << endl;
+  cout << measurements.toLDAPString() << endl;
+}
+
+/*******************************************************************************
+ *  add_command_line add command line arguments to Configuration
+ ******************************************************************************/
+void add_command_line(Configuration& configuration){
+  configuration.addParamInt("wss",'I', 10248576,
+                  "--wss or -I, the initial working set size in bytes");
+  configuration.addParamInt("num_threads",'T', omp_get_max_threads(),
+                  "--num_threads or -T, number of threads");
+  configuration.addParamInt("ntimes",'N', 1000,
+                  "--ntimes or -N, the number of times the kernel is run for a working set size");
+}
+
+/*******************************************************************************
+ * The actual benchmark is executed here
+ ******************************************************************************/
+void run_benchmark(Configuration& configuration, Measurements& measurement){
+
+  long int k, i; 
+  int nthreads = configuration.getInt("num_threads");
+  setNumThreads(nthreads);
+  int ntimes = configuration.getInt("ntimes");
+  double wss = configuration.getInt("wss");
+  int num_threads = omp_get_max_threads();
+
+  //Number of elements n and actual WSS calculated
+  long n = STM_FUNC_calcn(wss,num_threads);
+  double actualWSS = STM_FUNC_calcActualWSS(n,num_threads);
+
+  ADAPT_SCHED_PARAMS
+
+  //PAPI Events
+  int events[3] = {PAPI_L1_DCM, PAPI_CA_SHR, PAPI_CA_CLN }, ret;
+  
+  //To store event results
+  long_long values[3];
+
+  if (PAPI_num_counters() < 3) {
+   fprintf(stderr, "No hardware counters here, or PAPI not supported.\n");
+   exit(1);
+  }
+  
+  // allocate memory for the data spaces
+  #ifdef STM_alloc
+     STM_alloc
+  #else
+     assert (false);
+  #endif
+  
+  
+  // prepare to take measurements
+  double exec_time, mem_bandwidth;
+  double init_thread_time[num_threads];
+  double per_thread_time[num_threads];
+
+  //First touch initialization of the arrays
+  #pragma omp parallel
+  {
+     int t_id = omp_get_thread_num();
+     STM_DS_alloc
+     #include "ADAPT_TEMPLATE_init.c"
+  }
+  
+  // start time measurement of the execution
+  double init_time = get_time();  
+
+  if ((ret = PAPI_start_counters(events, 3)) != PAPI_OK) {
+    fprintf(stderr, "PAPI failed to start counters: %s\n", PAPI_strerror(ret));
+    exit(1);
+  } 
+ 
+  #pragma omp parallel 
+  {
+    int t_id = omp_get_thread_num();
+    for(int kp = 0; kp < ntimes; kp++) {
+        #include "ADAPT_SCHEDULE_run.c"
+        STM_postrun()         
+    }
+  }
+
+  if ((ret = PAPI_stop_counters(values, 3)) != PAPI_OK) {
+      fprintf(stderr, "PAPI failed to stop counters: %s\n", PAPI_strerror(ret));
+      exit(1);
+  }
+
+  // Set the measurement results if all is OK.
+  int convert2GiB = 1024*1024*1024;
+
+
+  double papi_L1_DCM = ((float)values[0]) / (n*ntimes*num_threads);
+  double papi_CA_SHR = ((float)values[1]) / (n*ntimes*num_threads);
+  double papi_CA_CLN = ((float)values[2]) / (n*ntimes*num_threads);
+
+
+  measurement.setField("n(elements)", (float)n);
+  //Recording the working set size tested
+  measurement.setField("WSS(MiB)", actualWSS/(float)(1024*1024));
+ 
+  measurement.setField("PAPI_L1_DCM", papi_L1_DCM);
+  measurement.setField("PAPI_CA_SHR", papi_CA_SHR);
+  measurement.setField("PAPI_CA_CLN", papi_CA_CLN);
+
+  measurement.setField("NumberOfThreads", omp_get_max_threads());
+  
+  return;
+}
+
+/**
+ * get_time() returns the current system time
+ */
+double get_time(){
+    struct timeval tp;
+    gettimeofday(&tp,NULL);
+    return ( (double) tp.tv_sec + (double) tp.tv_usec * 1.e-6 );
+}	
+
+/**
+ * setNumThreads() assigns the number of threades to be implemented
+ *
+ */
+bool setNumThreads(int nThreads) {
+    if(nThreads > omp_get_max_threads()){
+        printf("--num_threads cannot be more than %d\n",omp_get_max_threads());
+        return false;
+    }else if (nThreads < 1){
+        printf("--num_threads cannot be less than %d\n",1);
+        return false;
+    }else{
+        omp_set_num_threads(nThreads);
+        return true;
+    }
+}

@@ -1,0 +1,219 @@
+Thread 0: 0.000000 s, 59.314008 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:1024,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):58.139535,TotalRunTime(s):0.000164,WSS(MiB):0.000977,
+Thread 0: 0.000000 s, 57.946764 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:6144,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):192.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):57.803468,TotalRunTime(s):0.000990,WSS(MiB):0.005859,
+Thread 0: 0.000000 s, 60.367818 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:11264,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):352.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):60.290491,TotalRunTime(s):0.001740,WSS(MiB):0.010742,
+Thread 0: 0.000000 s, 59.965256 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:16384,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):512.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):59.908265,TotalRunTime(s):0.002547,WSS(MiB):0.015625,
+Thread 0: 0.000000 s, 60.424439 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:21504,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):672.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):60.375189,TotalRunTime(s):0.003317,WSS(MiB):0.020508,
+Thread 0: 0.000000 s, 60.982047 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:26624,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):832.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):60.936310,TotalRunTime(s):0.004069,WSS(MiB):0.025391,
+Thread 0: 0.000000 s, 60.420220 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:31744,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):992.000000,AvgTestRunTime(s):0.000000,CumulativeMemoryBandwidth(GiB/s):60.384709,TotalRunTime(s):0.004896,WSS(MiB):0.030273,
+Thread 0: 0.000001 s, 51.600197 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:40960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):1280.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):51.577963,TotalRunTime(s):0.007396,WSS(MiB):0.039062,
+Thread 0: 0.000001 s, 52.615385 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:56320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):1760.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):52.598862,TotalRunTime(s):0.009972,WSS(MiB):0.053711,
+Thread 0: 0.000001 s, 53.122352 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:71680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):2240.000000,AvgTestRunTime(s):0.000001,CumulativeMemoryBandwidth(GiB/s):53.112789,TotalRunTime(s):0.012569,WSS(MiB):0.068359,
+Thread 0: 0.000002 s, 52.640729 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:87040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):2720.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):52.576236,TotalRunTime(s):0.015418,WSS(MiB):0.083008,
+Thread 0: 0.000002 s, 54.528423 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:102400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):3200.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):54.517452,TotalRunTime(s):0.017493,WSS(MiB):0.097656,
+Thread 0: 0.000002 s, 53.218417 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:117760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):3680.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):53.210563,TotalRunTime(s):0.020611,WSS(MiB):0.112305,
+Thread 0: 0.000002 s, 54.350889 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:133120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):4160.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):54.342714,TotalRunTime(s):0.022814,WSS(MiB):0.126953,
+Thread 0: 0.000003 s, 53.170337 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:148480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):4640.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):53.163211,TotalRunTime(s):0.026011,WSS(MiB):0.141602,
+Thread 0: 0.000003 s, 51.913039 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:163840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):5120.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):51.907604,TotalRunTime(s):0.029396,WSS(MiB):0.156250,
+Thread 0: 0.000003 s, 49.595408 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:179200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):5600.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):49.589470,TotalRunTime(s):0.033655,WSS(MiB):0.170898,
+Thread 0: 0.000003 s, 52.669640 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:194560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):6080.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):52.664768,TotalRunTime(s):0.034406,WSS(MiB):0.185547,
+Thread 0: 0.000004 s, 49.074202 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:209920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):6560.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):49.069475,TotalRunTime(s):0.039842,WSS(MiB):0.200195,
+Thread 0: 0.000004 s, 47.700173 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:225280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):7040.000000,AvgTestRunTime(s):0.000004,CumulativeMemoryBandwidth(GiB/s):47.696735,TotalRunTime(s):0.043988,WSS(MiB):0.214844,
+Thread 0: 0.000005 s, 46.568093 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:240640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):7520.000000,AvgTestRunTime(s):0.000005,CumulativeMemoryBandwidth(GiB/s):46.565082,TotalRunTime(s):0.048129,WSS(MiB):0.229492,
+Thread 0: 0.000006 s, 41.399381 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:256000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8000.000000,AvgTestRunTime(s):0.000006,CumulativeMemoryBandwidth(GiB/s):41.396383,TotalRunTime(s):0.057594,WSS(MiB):0.244141,
+Thread 0: 0.000006 s, 44.823376 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:271360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8480.000000,AvgTestRunTime(s):0.000006,CumulativeMemoryBandwidth(GiB/s):44.820296,TotalRunTime(s):0.056386,WSS(MiB):0.258789,
+Thread 0: 0.000007 s, 40.876172 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:286720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):8960.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):40.873824,TotalRunTime(s):0.065330,WSS(MiB):0.273438,
+Thread 0: 0.000007 s, 42.421366 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:302080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):9440.000000,AvgTestRunTime(s):0.000007,CumulativeMemoryBandwidth(GiB/s):42.419340,TotalRunTime(s):0.066322,WSS(MiB):0.288086,
+Thread 0: 0.000008 s, 38.500295 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:317440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):9920.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):38.491147,TotalRunTime(s):0.076807,WSS(MiB):0.302734,
+Thread 0: 0.000008 s, 40.598218 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:332800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):10400.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):40.596836,TotalRunTime(s):0.076347,WSS(MiB):0.317383,
+Thread 0: 0.000009 s, 36.857239 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:348160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):10880.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):36.855669,TotalRunTime(s):0.087978,WSS(MiB):0.332031,
+Thread 0: 0.000009 s, 39.467185 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:363520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11360.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):39.465383,TotalRunTime(s):0.085785,WSS(MiB):0.346680,
+Thread 0: 0.000010 s, 34.812062 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:378880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):11840.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):34.810834,TotalRunTime(s):0.101365,WSS(MiB):0.361328,
+Thread 0: 0.000011 s, 33.971906 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:394240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):12320.000000,AvgTestRunTime(s):0.000011,CumulativeMemoryBandwidth(GiB/s):33.970913,TotalRunTime(s):0.108082,WSS(MiB):0.375977,
+Thread 0: 0.000012 s, 32.696448 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:409600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):12800.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):32.695365,TotalRunTime(s):0.116674,WSS(MiB):0.390625,
+Thread 0: 0.000012 s, 31.751457 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:424960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):13280.000000,AvgTestRunTime(s):0.000012,CumulativeMemoryBandwidth(GiB/s):31.750646,TotalRunTime(s):0.124651,WSS(MiB):0.405273,
+Thread 0: 0.000013 s, 32.653861 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:440320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):13760.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):32.652813,TotalRunTime(s):0.125588,WSS(MiB):0.419922,
+Thread 0: 0.000013 s, 32.333860 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:455680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):14240.000000,AvgTestRunTime(s):0.000013,CumulativeMemoryBandwidth(GiB/s):32.333126,TotalRunTime(s):0.131254,WSS(MiB):0.434570,
+Thread 0: 0.000014 s, 32.253036 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:471040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):14720.000000,AvgTestRunTime(s):0.000014,CumulativeMemoryBandwidth(GiB/s):32.252128,TotalRunTime(s):0.136019,WSS(MiB):0.449219,
+Thread 0: 0.000015 s, 31.078794 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:486400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):15200.000000,AvgTestRunTime(s):0.000015,CumulativeMemoryBandwidth(GiB/s):31.078150,TotalRunTime(s):0.145760,WSS(MiB):0.463867,
+Thread 0: 0.000015 s, 31.002209 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:501760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):15680.000000,AvgTestRunTime(s):0.000015,CumulativeMemoryBandwidth(GiB/s):31.001425,TotalRunTime(s):0.150735,WSS(MiB):0.478516,
+Thread 0: 0.000016 s, 31.034642 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:517120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):16160.000000,AvgTestRunTime(s):0.000016,CumulativeMemoryBandwidth(GiB/s):31.034096,TotalRunTime(s):0.155186,WSS(MiB):0.493164,
+Thread 0: 0.000016 s, 30.519659 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:532480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):16640.000000,AvgTestRunTime(s):0.000016,CumulativeMemoryBandwidth(GiB/s):30.519074,TotalRunTime(s):0.162492,WSS(MiB):0.507812,
+Thread 0: 0.000017 s, 30.435693 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:547840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):17120.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):30.435036,TotalRunTime(s):0.167641,WSS(MiB):0.522461,
+Thread 0: 0.000017 s, 30.483932 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:563200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):17600.000000,AvgTestRunTime(s):0.000017,CumulativeMemoryBandwidth(GiB/s):30.483369,TotalRunTime(s):0.172068,WSS(MiB):0.537109,
+Thread 0: 0.000018 s, 30.488846 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:578560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):18080.000000,AvgTestRunTime(s):0.000018,CumulativeMemoryBandwidth(GiB/s):30.488134,TotalRunTime(s):0.176733,WSS(MiB):0.551758,
+Thread 0: 0.000018 s, 30.438571 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:593920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):18560.000000,AvgTestRunTime(s):0.000018,CumulativeMemoryBandwidth(GiB/s):30.437966,TotalRunTime(s):0.181724,WSS(MiB):0.566406,
+Thread 0: 0.000019 s, 30.529593 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:609280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):19040.000000,AvgTestRunTime(s):0.000019,CumulativeMemoryBandwidth(GiB/s):30.528985,TotalRunTime(s):0.185868,WSS(MiB):0.581055,
+Thread 0: 0.000019 s, 30.499286 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:624640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):19520.000000,AvgTestRunTime(s):0.000019,CumulativeMemoryBandwidth(GiB/s):30.498704,TotalRunTime(s):0.190743,WSS(MiB):0.595703,
+Thread 0: 0.000020 s, 30.499099 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:640000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20000.000000,AvgTestRunTime(s):0.000020,CumulativeMemoryBandwidth(GiB/s):30.498591,TotalRunTime(s):0.195434,WSS(MiB):0.610352,
+Thread 0: 0.000020 s, 30.555170 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:655360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20480.000000,AvgTestRunTime(s):0.000020,CumulativeMemoryBandwidth(GiB/s):30.554541,TotalRunTime(s):0.199758,WSS(MiB):0.625000,
+Thread 0: 0.000020 s, 30.564223 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:670720,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):20960.000000,AvgTestRunTime(s):0.000020,CumulativeMemoryBandwidth(GiB/s):30.563666,TotalRunTime(s):0.204379,WSS(MiB):0.639648,
+Thread 0: 0.000021 s, 30.517969 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:686080,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):21440.000000,AvgTestRunTime(s):0.000021,CumulativeMemoryBandwidth(GiB/s):30.517453,TotalRunTime(s):0.209376,WSS(MiB):0.654297,
+Thread 0: 0.000021 s, 30.476442 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:701440,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):21920.000000,AvgTestRunTime(s):0.000021,CumulativeMemoryBandwidth(GiB/s):30.475936,TotalRunTime(s):0.214355,WSS(MiB):0.668945,
+Thread 0: 0.000022 s, 30.533021 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:716800,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22400.000000,AvgTestRunTime(s):0.000022,CumulativeMemoryBandwidth(GiB/s):30.532653,TotalRunTime(s):0.218642,WSS(MiB):0.683594,
+Thread 0: 0.000022 s, 30.472769 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:732160,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):22880.000000,AvgTestRunTime(s):0.000022,CumulativeMemoryBandwidth(GiB/s):30.472375,TotalRunTime(s):0.223769,WSS(MiB):0.698242,
+Thread 0: 0.000023 s, 30.468741 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:747520,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):23360.000000,AvgTestRunTime(s):0.000023,CumulativeMemoryBandwidth(GiB/s):30.468304,TotalRunTime(s):0.228494,WSS(MiB):0.712891,
+Thread 0: 0.000023 s, 30.515612 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:762880,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):23840.000000,AvgTestRunTime(s):0.000023,CumulativeMemoryBandwidth(GiB/s):30.515153,TotalRunTime(s):0.232831,WSS(MiB):0.727539,
+Thread 0: 0.000024 s, 30.508022 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:778240,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24320.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):30.507570,TotalRunTime(s):0.237578,WSS(MiB):0.742188,
+Thread 0: 0.000024 s, 30.540867 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:793600,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):24800.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):30.540458,TotalRunTime(s):0.242006,WSS(MiB):0.756836,
+Thread 0: 0.000025 s, 30.500224 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:808960,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):25280.000000,AvgTestRunTime(s):0.000025,CumulativeMemoryBandwidth(GiB/s):30.499811,TotalRunTime(s):0.247019,WSS(MiB):0.771484,
+Thread 0: 0.000025 s, 30.528591 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:824320,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):25760.000000,AvgTestRunTime(s):0.000025,CumulativeMemoryBandwidth(GiB/s):30.528185,TotalRunTime(s):0.251475,WSS(MiB):0.786133,
+Thread 0: 0.000026 s, 30.513124 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:839680,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26240.000000,AvgTestRunTime(s):0.000026,CumulativeMemoryBandwidth(GiB/s):30.512678,TotalRunTime(s):0.256291,WSS(MiB):0.800781,
+Thread 0: 0.000026 s, 30.528091 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:855040,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):26720.000000,AvgTestRunTime(s):0.000026,CumulativeMemoryBandwidth(GiB/s):30.527709,TotalRunTime(s):0.260851,WSS(MiB):0.815430,
+Thread 0: 0.000027 s, 30.439400 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:870400,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27200.000000,AvgTestRunTime(s):0.000027,CumulativeMemoryBandwidth(GiB/s):30.438975,TotalRunTime(s):0.266311,WSS(MiB):0.830078,
+Thread 0: 0.000027 s, 30.599290 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:885760,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):27680.000000,AvgTestRunTime(s):0.000027,CumulativeMemoryBandwidth(GiB/s):30.598916,TotalRunTime(s):0.269594,WSS(MiB):0.844727,
+Thread 0: 0.000027 s, 30.534996 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:901120,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):28160.000000,AvgTestRunTime(s):0.000027,CumulativeMemoryBandwidth(GiB/s):30.534563,TotalRunTime(s):0.274847,WSS(MiB):0.859375,
+Thread 0: 0.000028 s, 30.597580 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:916480,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):28640.000000,AvgTestRunTime(s):0.000028,CumulativeMemoryBandwidth(GiB/s):30.597271,TotalRunTime(s):0.278959,WSS(MiB):0.874023,
+Thread 0: 0.000028 s, 30.559411 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:931840,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29120.000000,AvgTestRunTime(s):0.000028,CumulativeMemoryBandwidth(GiB/s):30.558960,TotalRunTime(s):0.283990,WSS(MiB):0.888672,
+Thread 0: 0.000029 s, 30.529336 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:947200,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):29600.000000,AvgTestRunTime(s):0.000029,CumulativeMemoryBandwidth(GiB/s):30.528934,TotalRunTime(s):0.288955,WSS(MiB):0.903320,
+Thread 0: 0.000029 s, 30.540233 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:962560,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30080.000000,AvgTestRunTime(s):0.000029,CumulativeMemoryBandwidth(GiB/s):30.539832,TotalRunTime(s):0.293536,WSS(MiB):0.917969,
+Thread 0: 0.000030 s, 30.518427 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:977920,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):30560.000000,AvgTestRunTime(s):0.000030,CumulativeMemoryBandwidth(GiB/s):30.518032,TotalRunTime(s):0.298433,WSS(MiB):0.932617,
+Thread 0: 0.000030 s, 30.562414 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:993280,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31040.000000,AvgTestRunTime(s):0.000030,CumulativeMemoryBandwidth(GiB/s):30.562058,TotalRunTime(s):0.302684,WSS(MiB):0.947266,
+Thread 0: 0.000031 s, 30.559777 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:1008640,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):31520.000000,AvgTestRunTime(s):0.000031,CumulativeMemoryBandwidth(GiB/s):30.559408,TotalRunTime(s):0.307391,WSS(MiB):0.961914,
+Thread 0: 0.000031 s, 30.587267 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:1024000,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32000.000000,AvgTestRunTime(s):0.000031,CumulativeMemoryBandwidth(GiB/s):30.586675,TotalRunTime(s):0.311794,WSS(MiB):0.976562,
+Thread 0: 0.000032 s, 30.547963 GiB/s 
+Executable:./../bin/adapt_membench_2FMA_indDS,wss:1039360,num_threads:1,ntimes:10000,
+NumberOfThreads:1,n(elements):32480.000000,AvgTestRunTime(s):0.000032,CumulativeMemoryBandwidth(GiB/s):30.547584,TotalRunTime(s):0.316876,WSS(MiB):0.991211,

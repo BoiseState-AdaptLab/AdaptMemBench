@@ -1,0 +1,5 @@
+Domain_init := [n] -> {
+    STM_init[k] : k <= n+1 and k >= 0;
+};
+
+codegen (Domain_init);

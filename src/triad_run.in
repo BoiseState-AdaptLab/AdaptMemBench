@@ -1,0 +1,5 @@
+Domain_run := [n] -> {
+    STM_run[k] : k < n and k >= 0;
+};
+
+codegen (Domain_run);

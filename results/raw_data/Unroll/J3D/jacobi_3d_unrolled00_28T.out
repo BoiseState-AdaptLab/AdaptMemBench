@@ -1,0 +1,997 @@
+size: 5120.000000 MiB, n (=2)  % 8 != 0.....
+size: 25600.000000 MiB, n (=3)  % 8 != 0.....
+size: 46080.000000 MiB, n (=4)  % 8 != 0.....
+size: 66560.000000 MiB, n (=5)  % 8 != 0.....
+size: 87040.000000 MiB, n (=5)  % 8 != 0.....
+size: 107520.000000 MiB, n (=6)  % 8 != 0.....
+size: 128000.000000 MiB, n (=6)  % 8 != 0.....
+size: 148480.000000 MiB, n (=6)  % 8 != 0.....
+size: 168960.000000 MiB, n (=7)  % 8 != 0.....
+size: 189440.000000 MiB, n (=7)  % 8 != 0.....
+size: 209920.000000 MiB, n (=7)  % 8 != 0.....
+Thread 0: 0.000001 s, 5.231583 GiB/s 
+Thread 1: 0.000002 s, 4.994667 GiB/s 
+Thread 2: 0.000002 s, 4.974170 GiB/s 
+Thread 3: 0.000002 s, 4.800603 GiB/s 
+Thread 4: 0.000002 s, 4.864573 GiB/s 
+Thread 5: 0.000002 s, 4.915997 GiB/s 
+Thread 6: 0.000002 s, 4.912871 GiB/s 
+Thread 7: 0.000002 s, 4.873721 GiB/s 
+Thread 8: 0.000002 s, 4.916669 GiB/s 
+Thread 9: 0.000002 s, 4.870923 GiB/s 
+Thread 10: 0.000002 s, 4.889128 GiB/s 
+Thread 11: 0.000002 s, 4.868539 GiB/s 
+Thread 12: 0.000002 s, 4.914005 GiB/s 
+Thread 13: 0.000002 s, 4.861712 GiB/s 
+Thread 14: 0.000002 s, 4.866219 GiB/s 
+Thread 15: 0.000002 s, 4.891978 GiB/s 
+Thread 16: 0.000002 s, 4.892441 GiB/s 
+Thread 17: 0.000002 s, 4.892143 GiB/s 
+Thread 18: 0.000002 s, 4.876256 GiB/s 
+Thread 19: 0.000002 s, 4.927735 GiB/s 
+Thread 20: 0.000002 s, 4.900921 GiB/s 
+Thread 21: 0.000002 s, 5.014123 GiB/s 
+Thread 22: 0.000002 s, 4.992106 GiB/s 
+Thread 23: 0.000002 s, 5.001597 GiB/s 
+Thread 24: 0.000002 s, 5.004916 GiB/s 
+Thread 25: 0.000002 s, 5.003541 GiB/s 
+Thread 26: 0.000002 s, 4.993331 GiB/s 
+Thread 27: 0.000002 s, 5.002692 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:230400,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):8.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):134.302631,TotalRunTime(s):0.015906,WSS(MiB):0.218750,
+Thread 0: 0.000001 s, 5.265701 GiB/s 
+Thread 1: 0.000002 s, 4.865852 GiB/s 
+Thread 2: 0.000002 s, 4.769133 GiB/s 
+Thread 3: 0.000002 s, 4.947980 GiB/s 
+Thread 4: 0.000002 s, 4.944853 GiB/s 
+Thread 5: 0.000002 s, 4.815708 GiB/s 
+Thread 6: 0.000002 s, 4.804129 GiB/s 
+Thread 7: 0.000002 s, 4.896979 GiB/s 
+Thread 8: 0.000002 s, 4.918595 GiB/s 
+Thread 9: 0.000002 s, 4.995600 GiB/s 
+Thread 10: 0.000002 s, 5.009109 GiB/s 
+Thread 11: 0.000002 s, 4.925544 GiB/s 
+Thread 12: 0.000002 s, 4.873987 GiB/s 
+Thread 13: 0.000002 s, 4.924181 GiB/s 
+Thread 14: 0.000002 s, 4.878012 GiB/s 
+Thread 15: 0.000002 s, 4.898280 GiB/s 
+Thread 16: 0.000002 s, 4.867795 GiB/s 
+Thread 17: 0.000002 s, 4.879347 GiB/s 
+Thread 18: 0.000002 s, 4.868194 GiB/s 
+Thread 19: 0.000002 s, 4.873560 GiB/s 
+Thread 20: 0.000002 s, 4.926977 GiB/s 
+Thread 21: 0.000002 s, 5.011002 GiB/s 
+Thread 22: 0.000002 s, 4.990641 GiB/s 
+Thread 23: 0.000002 s, 5.006495 GiB/s 
+Thread 24: 0.000002 s, 5.008264 GiB/s 
+Thread 25: 0.000002 s, 4.896622 GiB/s 
+Thread 26: 0.000002 s, 4.913091 GiB/s 
+Thread 27: 0.000002 s, 4.926115 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:250880,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):8.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):133.313495,TotalRunTime(s):0.016024,WSS(MiB):0.218750,
+Thread 0: 0.000001 s, 5.350792 GiB/s 
+Thread 1: 0.000002 s, 4.997019 GiB/s 
+Thread 2: 0.000002 s, 4.963054 GiB/s 
+Thread 3: 0.000002 s, 5.028762 GiB/s 
+Thread 4: 0.000002 s, 5.022368 GiB/s 
+Thread 5: 0.000002 s, 4.899097 GiB/s 
+Thread 6: 0.000002 s, 4.911923 GiB/s 
+Thread 7: 0.000002 s, 4.919756 GiB/s 
+Thread 8: 0.000002 s, 4.940002 GiB/s 
+Thread 9: 0.000002 s, 4.877064 GiB/s 
+Thread 10: 0.000002 s, 4.901228 GiB/s 
+Thread 11: 0.000002 s, 4.882159 GiB/s 
+Thread 12: 0.000002 s, 4.810397 GiB/s 
+Thread 13: 0.000002 s, 4.840564 GiB/s 
+Thread 14: 0.000002 s, 4.846746 GiB/s 
+Thread 15: 0.000002 s, 4.893307 GiB/s 
+Thread 16: 0.000002 s, 4.784896 GiB/s 
+Thread 17: 0.000002 s, 4.877241 GiB/s 
+Thread 18: 0.000002 s, 4.853309 GiB/s 
+Thread 19: 0.000002 s, 4.874031 GiB/s 
+Thread 20: 0.000002 s, 4.859635 GiB/s 
+Thread 21: 0.000002 s, 4.880777 GiB/s 
+Thread 22: 0.000002 s, 4.885709 GiB/s 
+Thread 23: 0.000002 s, 4.890615 GiB/s 
+Thread 24: 0.000002 s, 4.889631 GiB/s 
+Thread 25: 0.000002 s, 4.899564 GiB/s 
+Thread 26: 0.000002 s, 4.881441 GiB/s 
+Thread 27: 0.000002 s, 4.988579 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:271360,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):8.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):116.683379,TotalRunTime(s):0.018308,WSS(MiB):0.218750,
+Thread 0: 0.000001 s, 5.371905 GiB/s 
+Thread 1: 0.000002 s, 4.870849 GiB/s 
+Thread 2: 0.000002 s, 3.196602 GiB/s 
+Thread 3: 0.000002 s, 4.863089 GiB/s 
+Thread 4: 0.000002 s, 4.869837 GiB/s 
+Thread 5: 0.000002 s, 4.801722 GiB/s 
+Thread 6: 0.000002 s, 4.829651 GiB/s 
+Thread 7: 0.000002 s, 4.847581 GiB/s 
+Thread 8: 0.000002 s, 4.903590 GiB/s 
+Thread 9: 0.000002 s, 4.837173 GiB/s 
+Thread 10: 0.000002 s, 4.901084 GiB/s 
+Thread 11: 0.000002 s, 4.884678 GiB/s 
+Thread 12: 0.000002 s, 4.900520 GiB/s 
+Thread 13: 0.000002 s, 4.863964 GiB/s 
+Thread 14: 0.000002 s, 4.903462 GiB/s 
+Thread 15: 0.000002 s, 5.063197 GiB/s 
+Thread 16: 0.000002 s, 5.044856 GiB/s 
+Thread 17: 0.000002 s, 5.056692 GiB/s 
+Thread 18: 0.000002 s, 5.060077 GiB/s 
+Thread 19: 0.000002 s, 5.040887 GiB/s 
+Thread 20: 0.000002 s, 5.039536 GiB/s 
+Thread 21: 0.000002 s, 5.010760 GiB/s 
+Thread 22: 0.000002 s, 5.016970 GiB/s 
+Thread 23: 0.000001 s, 5.229158 GiB/s 
+Thread 24: 0.000002 s, 5.010360 GiB/s 
+Thread 25: 0.000002 s, 5.010779 GiB/s 
+Thread 26: 0.000002 s, 5.010637 GiB/s 
+Thread 27: 0.000002 s, 5.014843 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:291840,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):8.000000,AvgTestRunTime(s):0.000003,CumulativeMemoryBandwidth(GiB/s):79.778472,TotalRunTime(s):0.026777,WSS(MiB):0.218750,
+Thread 0: 0.000001 s, 5.353904 GiB/s 
+Thread 1: 0.000002 s, 4.943982 GiB/s 
+Thread 2: 0.000002 s, 4.971652 GiB/s 
+Thread 3: 0.000002 s, 4.915711 GiB/s 
+Thread 4: 0.000002 s, 4.902980 GiB/s 
+Thread 5: 0.000002 s, 4.870738 GiB/s 
+Thread 6: 0.000002 s, 4.821259 GiB/s 
+Thread 7: 0.000002 s, 4.898300 GiB/s 
+Thread 8: 0.000002 s, 4.894468 GiB/s 
+Thread 9: 0.000002 s, 5.033833 GiB/s 
+Thread 10: 0.000002 s, 5.047396 GiB/s 
+Thread 11: 0.000002 s, 5.026236 GiB/s 
+Thread 12: 0.000002 s, 5.021392 GiB/s 
+Thread 13: 0.000002 s, 4.921219 GiB/s 
+Thread 14: 0.000002 s, 4.900287 GiB/s 
+Thread 15: 0.000002 s, 4.891791 GiB/s 
+Thread 16: 0.000002 s, 4.858912 GiB/s 
+Thread 17: 0.000002 s, 4.897698 GiB/s 
+Thread 18: 0.000002 s, 4.901990 GiB/s 
+Thread 19: 0.000002 s, 4.883729 GiB/s 
+Thread 20: 0.000002 s, 4.868095 GiB/s 
+Thread 21: 0.000002 s, 4.890377 GiB/s 
+Thread 22: 0.000002 s, 4.888341 GiB/s 
+Thread 23: 0.000002 s, 4.894474 GiB/s 
+Thread 24: 0.000002 s, 4.888795 GiB/s 
+Thread 25: 0.000002 s, 4.900558 GiB/s 
+Thread 26: 0.000002 s, 4.899577 GiB/s 
+Thread 27: 0.000002 s, 4.898226 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:312320,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):8.000000,AvgTestRunTime(s):0.000002,CumulativeMemoryBandwidth(GiB/s):134.846341,TotalRunTime(s):0.015842,WSS(MiB):0.218750,
+size: 332800.000000 MiB, n (=9)  % 8 != 0.....
+size: 353280.000000 MiB, n (=9)  % 8 != 0.....
+size: 373760.000000 MiB, n (=9)  % 8 != 0.....
+size: 394240.000000 MiB, n (=9)  % 8 != 0.....
+size: 414720.000000 MiB, n (=9)  % 8 != 0.....
+size: 435200.000000 MiB, n (=9)  % 8 != 0.....
+size: 455680.000000 MiB, n (=10)  % 8 != 0.....
+size: 476160.000000 MiB, n (=10)  % 8 != 0.....
+size: 496640.000000 MiB, n (=10)  % 8 != 0.....
+size: 517120.000000 MiB, n (=10)  % 8 != 0.....
+size: 537600.000000 MiB, n (=10)  % 8 != 0.....
+size: 558080.000000 MiB, n (=10)  % 8 != 0.....
+size: 578560.000000 MiB, n (=10)  % 8 != 0.....
+size: 599040.000000 MiB, n (=11)  % 8 != 0.....
+size: 619520.000000 MiB, n (=11)  % 8 != 0.....
+size: 640000.000000 MiB, n (=11)  % 8 != 0.....
+size: 660480.000000 MiB, n (=11)  % 8 != 0.....
+size: 680960.000000 MiB, n (=11)  % 8 != 0.....
+size: 701440.000000 MiB, n (=11)  % 8 != 0.....
+size: 721920.000000 MiB, n (=11)  % 8 != 0.....
+size: 742400.000000 MiB, n (=11)  % 8 != 0.....
+size: 762880.000000 MiB, n (=11)  % 8 != 0.....
+size: 783360.000000 MiB, n (=12)  % 8 != 0.....
+size: 803840.000000 MiB, n (=12)  % 8 != 0.....
+size: 824320.000000 MiB, n (=12)  % 8 != 0.....
+size: 844800.000000 MiB, n (=12)  % 8 != 0.....
+size: 865280.000000 MiB, n (=12)  % 8 != 0.....
+size: 885760.000000 MiB, n (=12)  % 8 != 0.....
+size: 906240.000000 MiB, n (=12)  % 8 != 0.....
+size: 926720.000000 MiB, n (=12)  % 8 != 0.....
+size: 947200.000000 MiB, n (=12)  % 8 != 0.....
+size: 967680.000000 MiB, n (=12)  % 8 != 0.....
+size: 988160.000000 MiB, n (=13)  % 8 != 0.....
+size: 1008640.000000 MiB, n (=13)  % 8 != 0.....
+size: 1029120.000000 MiB, n (=13)  % 8 != 0.....
+size: 1049600.000000 MiB, n (=13)  % 8 != 0.....
+size: 1070080.000000 MiB, n (=13)  % 8 != 0.....
+size: 1090560.000000 MiB, n (=13)  % 8 != 0.....
+size: 1111040.000000 MiB, n (=13)  % 8 != 0.....
+size: 1131520.000000 MiB, n (=13)  % 8 != 0.....
+size: 1152000.000000 MiB, n (=13)  % 8 != 0.....
+size: 1172480.000000 MiB, n (=13)  % 8 != 0.....
+size: 1192960.000000 MiB, n (=13)  % 8 != 0.....
+size: 1213440.000000 MiB, n (=13)  % 8 != 0.....
+size: 1233920.000000 MiB, n (=14)  % 8 != 0.....
+size: 1254400.000000 MiB, n (=14)  % 8 != 0.....
+size: 1274880.000000 MiB, n (=14)  % 8 != 0.....
+size: 1295360.000000 MiB, n (=14)  % 8 != 0.....
+size: 1315840.000000 MiB, n (=14)  % 8 != 0.....
+size: 1336320.000000 MiB, n (=14)  % 8 != 0.....
+size: 1356800.000000 MiB, n (=14)  % 8 != 0.....
+size: 1377280.000000 MiB, n (=14)  % 8 != 0.....
+size: 1397760.000000 MiB, n (=14)  % 8 != 0.....
+size: 1418240.000000 MiB, n (=14)  % 8 != 0.....
+size: 1438720.000000 MiB, n (=14)  % 8 != 0.....
+size: 1459200.000000 MiB, n (=14)  % 8 != 0.....
+size: 1479680.000000 MiB, n (=14)  % 8 != 0.....
+size: 1500160.000000 MiB, n (=14)  % 8 != 0.....
+size: 1520640.000000 MiB, n (=15)  % 8 != 0.....
+size: 1541120.000000 MiB, n (=15)  % 8 != 0.....
+size: 1561600.000000 MiB, n (=15)  % 8 != 0.....
+size: 1582080.000000 MiB, n (=15)  % 8 != 0.....
+size: 1602560.000000 MiB, n (=15)  % 8 != 0.....
+size: 1623040.000000 MiB, n (=15)  % 8 != 0.....
+size: 1643520.000000 MiB, n (=15)  % 8 != 0.....
+size: 1664000.000000 MiB, n (=15)  % 8 != 0.....
+size: 1684480.000000 MiB, n (=15)  % 8 != 0.....
+size: 1704960.000000 MiB, n (=15)  % 8 != 0.....
+size: 1725440.000000 MiB, n (=15)  % 8 != 0.....
+size: 1745920.000000 MiB, n (=15)  % 8 != 0.....
+size: 1766400.000000 MiB, n (=15)  % 8 != 0.....
+size: 1786880.000000 MiB, n (=15)  % 8 != 0.....
+size: 1807360.000000 MiB, n (=15)  % 8 != 0.....
+size: 1827840.000000 MiB, n (=15)  % 8 != 0.....
+Thread 0: 0.000008 s, 7.628495 GiB/s 
+Thread 1: 0.000008 s, 7.675493 GiB/s 
+Thread 2: 0.000008 s, 7.685312 GiB/s 
+Thread 3: 0.000008 s, 7.602519 GiB/s 
+Thread 4: 0.000008 s, 7.611215 GiB/s 
+Thread 5: 0.000008 s, 7.615043 GiB/s 
+Thread 6: 0.000008 s, 7.592550 GiB/s 
+Thread 7: 0.000008 s, 7.583537 GiB/s 
+Thread 8: 0.000008 s, 7.612640 GiB/s 
+Thread 9: 0.000008 s, 7.599697 GiB/s 
+Thread 10: 0.000008 s, 7.599093 GiB/s 
+Thread 11: 0.000008 s, 7.619956 GiB/s 
+Thread 12: 0.000008 s, 7.609039 GiB/s 
+Thread 13: 0.000008 s, 7.609651 GiB/s 
+Thread 14: 0.000008 s, 7.602826 GiB/s 
+Thread 15: 0.000008 s, 7.609958 GiB/s 
+Thread 16: 0.000008 s, 7.592644 GiB/s 
+Thread 17: 0.000008 s, 7.589691 GiB/s 
+Thread 18: 0.000008 s, 7.587358 GiB/s 
+Thread 19: 0.000008 s, 7.644464 GiB/s 
+Thread 20: 0.000008 s, 7.645891 GiB/s 
+Thread 21: 0.000008 s, 7.624338 GiB/s 
+Thread 22: 0.000008 s, 7.630190 GiB/s 
+Thread 23: 0.000008 s, 7.618240 GiB/s 
+Thread 24: 0.000008 s, 7.620128 GiB/s 
+Thread 25: 0.000008 s, 7.647090 GiB/s 
+Thread 26: 0.000008 s, 7.587510 GiB/s 
+Thread 27: 0.000008 s, 7.626678 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1848320,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):212.301523,TotalRunTime(s):0.080498,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.661392 GiB/s 
+Thread 1: 0.000008 s, 7.543833 GiB/s 
+Thread 2: 0.000008 s, 7.549487 GiB/s 
+Thread 3: 0.000008 s, 7.568596 GiB/s 
+Thread 4: 0.000008 s, 7.563207 GiB/s 
+Thread 5: 0.000008 s, 7.627420 GiB/s 
+Thread 6: 0.000008 s, 7.635406 GiB/s 
+Thread 7: 0.000008 s, 7.704311 GiB/s 
+Thread 8: 0.000008 s, 7.713973 GiB/s 
+Thread 9: 0.000008 s, 7.649310 GiB/s 
+Thread 10: 0.000008 s, 7.571724 GiB/s 
+Thread 11: 0.000008 s, 7.611291 GiB/s 
+Thread 12: 0.000008 s, 7.581794 GiB/s 
+Thread 13: 0.000008 s, 7.705276 GiB/s 
+Thread 14: 0.000008 s, 7.705329 GiB/s 
+Thread 15: 0.000008 s, 7.568208 GiB/s 
+Thread 16: 0.000008 s, 7.657401 GiB/s 
+Thread 17: 0.000008 s, 7.664545 GiB/s 
+Thread 18: 0.000008 s, 7.666222 GiB/s 
+Thread 19: 0.000008 s, 7.626796 GiB/s 
+Thread 20: 0.000008 s, 7.636184 GiB/s 
+Thread 21: 0.000008 s, 7.655640 GiB/s 
+Thread 22: 0.000008 s, 7.664713 GiB/s 
+Thread 23: 0.000008 s, 7.673265 GiB/s 
+Thread 24: 0.000008 s, 7.668034 GiB/s 
+Thread 25: 0.000008 s, 7.681866 GiB/s 
+Thread 26: 0.000008 s, 7.676822 GiB/s 
+Thread 27: 0.000008 s, 7.582030 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1868800,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):202.921526,TotalRunTime(s):0.084219,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.652024 GiB/s 
+Thread 1: 0.000008 s, 7.712218 GiB/s 
+Thread 2: 0.000008 s, 7.701557 GiB/s 
+Thread 3: 0.000008 s, 7.616829 GiB/s 
+Thread 4: 0.000008 s, 7.619048 GiB/s 
+Thread 5: 0.000008 s, 7.583217 GiB/s 
+Thread 6: 0.000008 s, 7.583123 GiB/s 
+Thread 7: 0.000008 s, 7.652309 GiB/s 
+Thread 8: 0.000008 s, 7.600579 GiB/s 
+Thread 9: 0.000008 s, 7.642600 GiB/s 
+Thread 10: 0.000008 s, 7.637060 GiB/s 
+Thread 11: 0.000008 s, 7.609910 GiB/s 
+Thread 12: 0.000008 s, 7.608049 GiB/s 
+Thread 13: 0.000008 s, 7.604706 GiB/s 
+Thread 14: 0.000008 s, 7.596536 GiB/s 
+Thread 15: 0.000008 s, 7.591813 GiB/s 
+Thread 16: 0.000008 s, 7.607267 GiB/s 
+Thread 17: 0.000008 s, 7.573451 GiB/s 
+Thread 18: 0.000008 s, 7.585716 GiB/s 
+Thread 19: 0.000008 s, 7.685540 GiB/s 
+Thread 20: 0.000008 s, 7.698158 GiB/s 
+Thread 21: 0.000008 s, 7.590196 GiB/s 
+Thread 22: 0.000008 s, 7.593731 GiB/s 
+Thread 23: 0.000008 s, 7.664987 GiB/s 
+Thread 24: 0.000008 s, 7.645835 GiB/s 
+Thread 25: 0.000008 s, 7.653403 GiB/s 
+Thread 26: 0.000008 s, 7.650889 GiB/s 
+Thread 27: 0.000008 s, 7.630125 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1889280,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):212.014552,TotalRunTime(s):0.080607,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.621066 GiB/s 
+Thread 1: 0.000008 s, 7.697030 GiB/s 
+Thread 2: 0.000008 s, 7.709176 GiB/s 
+Thread 3: 0.000008 s, 7.577917 GiB/s 
+Thread 4: 0.000008 s, 7.545183 GiB/s 
+Thread 5: 0.000008 s, 7.669024 GiB/s 
+Thread 6: 0.000008 s, 7.654536 GiB/s 
+Thread 7: 0.000008 s, 7.612034 GiB/s 
+Thread 8: 0.000008 s, 7.650946 GiB/s 
+Thread 9: 0.000008 s, 7.634499 GiB/s 
+Thread 10: 0.000008 s, 7.659097 GiB/s 
+Thread 11: 0.000008 s, 7.583225 GiB/s 
+Thread 12: 0.000008 s, 7.624494 GiB/s 
+Thread 13: 0.000008 s, 7.615875 GiB/s 
+Thread 14: 0.000008 s, 7.623013 GiB/s 
+Thread 15: 0.000008 s, 7.640824 GiB/s 
+Thread 16: 0.000008 s, 7.580746 GiB/s 
+Thread 17: 0.000008 s, 7.638322 GiB/s 
+Thread 18: 0.000008 s, 7.590504 GiB/s 
+Thread 19: 0.000008 s, 7.581805 GiB/s 
+Thread 20: 0.000008 s, 7.587144 GiB/s 
+Thread 21: 0.000008 s, 7.613364 GiB/s 
+Thread 22: 0.000008 s, 7.603404 GiB/s 
+Thread 23: 0.000008 s, 7.642803 GiB/s 
+Thread 24: 0.000008 s, 7.646540 GiB/s 
+Thread 25: 0.000008 s, 7.606771 GiB/s 
+Thread 26: 0.000008 s, 7.631914 GiB/s 
+Thread 27: 0.000008 s, 7.616533 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1909760,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):211.230459,TotalRunTime(s):0.080906,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.631217 GiB/s 
+Thread 1: 0.000008 s, 7.676229 GiB/s 
+Thread 2: 0.000008 s, 7.666271 GiB/s 
+Thread 3: 0.000008 s, 7.536179 GiB/s 
+Thread 4: 0.000008 s, 7.596068 GiB/s 
+Thread 5: 0.000008 s, 7.542432 GiB/s 
+Thread 6: 0.000008 s, 7.599438 GiB/s 
+Thread 7: 0.000008 s, 7.638318 GiB/s 
+Thread 8: 0.000008 s, 7.635085 GiB/s 
+Thread 9: 0.000008 s, 7.628666 GiB/s 
+Thread 10: 0.000008 s, 7.639743 GiB/s 
+Thread 11: 0.000008 s, 7.595317 GiB/s 
+Thread 12: 0.000008 s, 7.592197 GiB/s 
+Thread 13: 0.000008 s, 7.707377 GiB/s 
+Thread 14: 0.000008 s, 7.689156 GiB/s 
+Thread 15: 0.000008 s, 7.679631 GiB/s 
+Thread 16: 0.000008 s, 7.678727 GiB/s 
+Thread 17: 0.000008 s, 7.620891 GiB/s 
+Thread 18: 0.000008 s, 7.615737 GiB/s 
+Thread 19: 0.000008 s, 7.692963 GiB/s 
+Thread 20: 0.000008 s, 7.708462 GiB/s 
+Thread 21: 0.000008 s, 7.651056 GiB/s 
+Thread 22: 0.000008 s, 7.662603 GiB/s 
+Thread 23: 0.000008 s, 7.661455 GiB/s 
+Thread 24: 0.000008 s, 7.662179 GiB/s 
+Thread 25: 0.000008 s, 7.627332 GiB/s 
+Thread 26: 0.000008 s, 7.636463 GiB/s 
+Thread 27: 0.000008 s, 7.611114 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1930240,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):199.762002,TotalRunTime(s):0.085551,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.649312 GiB/s 
+Thread 1: 0.000008 s, 7.581714 GiB/s 
+Thread 2: 0.000008 s, 7.542990 GiB/s 
+Thread 3: 0.000008 s, 7.576956 GiB/s 
+Thread 4: 0.000008 s, 7.577965 GiB/s 
+Thread 5: 0.000008 s, 7.571668 GiB/s 
+Thread 6: 0.000008 s, 7.570504 GiB/s 
+Thread 7: 0.000008 s, 7.568258 GiB/s 
+Thread 8: 0.000008 s, 7.640436 GiB/s 
+Thread 9: 0.000008 s, 7.577743 GiB/s 
+Thread 10: 0.000008 s, 7.633531 GiB/s 
+Thread 11: 0.000008 s, 7.567241 GiB/s 
+Thread 12: 0.000008 s, 7.612041 GiB/s 
+Thread 13: 0.000008 s, 7.583455 GiB/s 
+Thread 14: 0.000008 s, 7.584570 GiB/s 
+Thread 15: 0.000008 s, 7.631229 GiB/s 
+Thread 16: 0.000008 s, 7.601911 GiB/s 
+Thread 17: 0.000008 s, 7.615235 GiB/s 
+Thread 18: 0.000008 s, 7.593919 GiB/s 
+Thread 19: 0.000008 s, 7.589982 GiB/s 
+Thread 20: 0.000008 s, 7.619092 GiB/s 
+Thread 21: 0.000008 s, 7.597875 GiB/s 
+Thread 22: 0.000008 s, 7.611155 GiB/s 
+Thread 23: 0.000008 s, 7.621630 GiB/s 
+Thread 24: 0.000008 s, 7.603056 GiB/s 
+Thread 25: 0.000008 s, 7.597294 GiB/s 
+Thread 26: 0.000008 s, 7.603403 GiB/s 
+Thread 27: 0.000008 s, 7.625532 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1950720,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):211.173830,TotalRunTime(s):0.080928,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.641768 GiB/s 
+Thread 1: 0.000008 s, 7.671747 GiB/s 
+Thread 2: 0.000008 s, 7.662538 GiB/s 
+Thread 3: 0.000008 s, 7.524886 GiB/s 
+Thread 4: 0.000008 s, 7.593071 GiB/s 
+Thread 5: 0.000008 s, 7.608941 GiB/s 
+Thread 6: 0.000008 s, 7.602835 GiB/s 
+Thread 7: 0.000008 s, 7.601689 GiB/s 
+Thread 8: 0.000008 s, 7.594519 GiB/s 
+Thread 9: 0.000008 s, 7.684336 GiB/s 
+Thread 10: 0.000008 s, 7.684606 GiB/s 
+Thread 11: 0.000008 s, 7.654897 GiB/s 
+Thread 12: 0.000008 s, 7.662269 GiB/s 
+Thread 13: 0.000008 s, 7.674587 GiB/s 
+Thread 14: 0.000008 s, 7.682857 GiB/s 
+Thread 15: 0.000008 s, 7.699732 GiB/s 
+Thread 16: 0.000008 s, 7.701585 GiB/s 
+Thread 17: 0.000008 s, 7.656474 GiB/s 
+Thread 18: 0.000008 s, 7.615032 GiB/s 
+Thread 19: 0.000008 s, 7.655056 GiB/s 
+Thread 20: 0.000008 s, 7.666839 GiB/s 
+Thread 21: 0.000008 s, 7.649472 GiB/s 
+Thread 22: 0.000008 s, 7.614839 GiB/s 
+Thread 23: 0.000008 s, 7.648237 GiB/s 
+Thread 24: 0.000008 s, 7.651827 GiB/s 
+Thread 25: 0.000008 s, 7.620790 GiB/s 
+Thread 26: 0.000008 s, 7.653120 GiB/s 
+Thread 27: 0.000008 s, 7.628464 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1971200,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):208.593420,TotalRunTime(s):0.081929,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.639477 GiB/s 
+Thread 1: 0.000008 s, 7.691818 GiB/s 
+Thread 2: 0.000008 s, 7.687870 GiB/s 
+Thread 3: 0.000008 s, 7.550205 GiB/s 
+Thread 4: 0.000008 s, 7.564840 GiB/s 
+Thread 5: 0.000008 s, 7.615753 GiB/s 
+Thread 6: 0.000008 s, 7.609719 GiB/s 
+Thread 7: 0.000008 s, 7.602785 GiB/s 
+Thread 8: 0.000008 s, 7.591091 GiB/s 
+Thread 9: 0.000008 s, 7.649830 GiB/s 
+Thread 10: 0.000008 s, 7.595994 GiB/s 
+Thread 11: 0.000008 s, 7.628820 GiB/s 
+Thread 12: 0.000008 s, 7.608374 GiB/s 
+Thread 13: 0.000008 s, 7.627074 GiB/s 
+Thread 14: 0.000008 s, 7.604949 GiB/s 
+Thread 15: 0.000008 s, 7.628569 GiB/s 
+Thread 16: 0.000008 s, 7.613885 GiB/s 
+Thread 17: 0.000008 s, 7.591830 GiB/s 
+Thread 18: 0.000008 s, 7.609962 GiB/s 
+Thread 19: 0.000008 s, 7.606729 GiB/s 
+Thread 20: 0.000008 s, 7.623807 GiB/s 
+Thread 21: 0.000008 s, 7.608561 GiB/s 
+Thread 22: 0.000008 s, 7.611879 GiB/s 
+Thread 23: 0.000008 s, 7.615051 GiB/s 
+Thread 24: 0.000008 s, 7.603435 GiB/s 
+Thread 25: 0.000008 s, 7.615320 GiB/s 
+Thread 26: 0.000008 s, 7.611140 GiB/s 
+Thread 27: 0.000008 s, 7.621417 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:1991680,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):211.376839,TotalRunTime(s):0.080850,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.648070 GiB/s 
+Thread 1: 0.000008 s, 7.549420 GiB/s 
+Thread 2: 0.000008 s, 7.555315 GiB/s 
+Thread 3: 0.000008 s, 7.552089 GiB/s 
+Thread 4: 0.000008 s, 7.554279 GiB/s 
+Thread 5: 0.000008 s, 7.589687 GiB/s 
+Thread 6: 0.000008 s, 7.603478 GiB/s 
+Thread 7: 0.000008 s, 7.578836 GiB/s 
+Thread 8: 0.000008 s, 7.580207 GiB/s 
+Thread 9: 0.000008 s, 7.601012 GiB/s 
+Thread 10: 0.000008 s, 7.596128 GiB/s 
+Thread 11: 0.000008 s, 7.580460 GiB/s 
+Thread 12: 0.000008 s, 7.623995 GiB/s 
+Thread 13: 0.000008 s, 7.616440 GiB/s 
+Thread 14: 0.000008 s, 7.583264 GiB/s 
+Thread 15: 0.000008 s, 7.629736 GiB/s 
+Thread 16: 0.000008 s, 7.626222 GiB/s 
+Thread 17: 0.000008 s, 7.585799 GiB/s 
+Thread 18: 0.000008 s, 7.575403 GiB/s 
+Thread 19: 0.000008 s, 7.608155 GiB/s 
+Thread 20: 0.000008 s, 7.586418 GiB/s 
+Thread 21: 0.000008 s, 7.592615 GiB/s 
+Thread 22: 0.000008 s, 7.597324 GiB/s 
+Thread 23: 0.000008 s, 7.645346 GiB/s 
+Thread 24: 0.000008 s, 7.647906 GiB/s 
+Thread 25: 0.000008 s, 7.624441 GiB/s 
+Thread 26: 0.000008 s, 7.625404 GiB/s 
+Thread 27: 0.000008 s, 7.610760 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2012160,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):206.478969,TotalRunTime(s):0.082768,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.655903 GiB/s 
+Thread 1: 0.000008 s, 7.690226 GiB/s 
+Thread 2: 0.000008 s, 7.700895 GiB/s 
+Thread 3: 0.000008 s, 7.611830 GiB/s 
+Thread 4: 0.000008 s, 7.607170 GiB/s 
+Thread 5: 0.000008 s, 7.595460 GiB/s 
+Thread 6: 0.000008 s, 7.611955 GiB/s 
+Thread 7: 0.000008 s, 7.628378 GiB/s 
+Thread 8: 0.000008 s, 7.606733 GiB/s 
+Thread 9: 0.000008 s, 7.614779 GiB/s 
+Thread 10: 0.000008 s, 7.631644 GiB/s 
+Thread 11: 0.000008 s, 7.605297 GiB/s 
+Thread 12: 0.000008 s, 7.602690 GiB/s 
+Thread 13: 0.000008 s, 7.644043 GiB/s 
+Thread 14: 0.000008 s, 7.638987 GiB/s 
+Thread 15: 0.000008 s, 7.582495 GiB/s 
+Thread 16: 0.000008 s, 7.569353 GiB/s 
+Thread 17: 0.000008 s, 7.621828 GiB/s 
+Thread 18: 0.000008 s, 7.602696 GiB/s 
+Thread 19: 0.000008 s, 7.680660 GiB/s 
+Thread 20: 0.000008 s, 7.680122 GiB/s 
+Thread 21: 0.000008 s, 7.605973 GiB/s 
+Thread 22: 0.000008 s, 7.592979 GiB/s 
+Thread 23: 0.000008 s, 7.650539 GiB/s 
+Thread 24: 0.000008 s, 7.599329 GiB/s 
+Thread 25: 0.000008 s, 7.628359 GiB/s 
+Thread 26: 0.000008 s, 7.626632 GiB/s 
+Thread 27: 0.000008 s, 7.638891 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2032640,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):211.896098,TotalRunTime(s):0.080652,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.642433 GiB/s 
+Thread 1: 0.000008 s, 7.681604 GiB/s 
+Thread 2: 0.000008 s, 7.694756 GiB/s 
+Thread 3: 0.000008 s, 7.690351 GiB/s 
+Thread 4: 0.000008 s, 7.689256 GiB/s 
+Thread 5: 0.000008 s, 7.607560 GiB/s 
+Thread 6: 0.000008 s, 7.598521 GiB/s 
+Thread 7: 0.000008 s, 7.683731 GiB/s 
+Thread 8: 0.000008 s, 7.690130 GiB/s 
+Thread 9: 0.000008 s, 7.683862 GiB/s 
+Thread 10: 0.000008 s, 7.685945 GiB/s 
+Thread 11: 0.000008 s, 7.644900 GiB/s 
+Thread 12: 0.000008 s, 7.660840 GiB/s 
+Thread 13: 0.000008 s, 7.702726 GiB/s 
+Thread 14: 0.000008 s, 7.679081 GiB/s 
+Thread 15: 0.000008 s, 7.670488 GiB/s 
+Thread 16: 0.000008 s, 7.658112 GiB/s 
+Thread 17: 0.000008 s, 7.705599 GiB/s 
+Thread 18: 0.000008 s, 7.698376 GiB/s 
+Thread 19: 0.000008 s, 7.613726 GiB/s 
+Thread 20: 0.000008 s, 7.622439 GiB/s 
+Thread 21: 0.000008 s, 7.678804 GiB/s 
+Thread 22: 0.000008 s, 7.662662 GiB/s 
+Thread 23: 0.000008 s, 7.628525 GiB/s 
+Thread 24: 0.000008 s, 7.625265 GiB/s 
+Thread 25: 0.000008 s, 7.638541 GiB/s 
+Thread 26: 0.000008 s, 7.644304 GiB/s 
+Thread 27: 0.000008 s, 7.669722 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2053120,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000009,CumulativeMemoryBandwidth(GiB/s):199.181931,TotalRunTime(s):0.085800,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.644144 GiB/s 
+Thread 1: 0.000008 s, 7.569862 GiB/s 
+Thread 2: 0.000008 s, 7.549325 GiB/s 
+Thread 3: 0.000008 s, 7.628523 GiB/s 
+Thread 4: 0.000008 s, 7.636648 GiB/s 
+Thread 5: 0.000008 s, 7.624443 GiB/s 
+Thread 6: 0.000008 s, 7.614908 GiB/s 
+Thread 7: 0.000008 s, 7.644888 GiB/s 
+Thread 8: 0.000009 s, 6.734077 GiB/s 
+Thread 9: 0.000008 s, 7.639932 GiB/s 
+Thread 10: 0.000009 s, 6.541429 GiB/s 
+Thread 11: 0.000008 s, 7.601016 GiB/s 
+Thread 12: 0.000008 s, 7.598020 GiB/s 
+Thread 13: 0.000008 s, 7.618026 GiB/s 
+Thread 14: 0.000008 s, 7.597243 GiB/s 
+Thread 15: 0.000008 s, 7.581841 GiB/s 
+Thread 16: 0.000008 s, 7.601331 GiB/s 
+Thread 17: 0.000008 s, 7.580833 GiB/s 
+Thread 18: 0.000008 s, 7.572875 GiB/s 
+Thread 19: 0.000008 s, 7.591834 GiB/s 
+Thread 20: 0.000008 s, 7.591875 GiB/s 
+Thread 21: 0.000008 s, 7.615694 GiB/s 
+Thread 22: 0.000008 s, 7.605201 GiB/s 
+Thread 23: 0.000008 s, 7.612453 GiB/s 
+Thread 24: 0.000008 s, 7.593643 GiB/s 
+Thread 25: 0.000008 s, 7.613668 GiB/s 
+Thread 26: 0.000008 s, 7.642805 GiB/s 
+Thread 27: 0.000008 s, 7.647309 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2073600,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000010,CumulativeMemoryBandwidth(GiB/s):163.540954,TotalRunTime(s):0.104499,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.638757 GiB/s 
+Thread 1: 0.000008 s, 7.689576 GiB/s 
+Thread 2: 0.000008 s, 7.690936 GiB/s 
+Thread 3: 0.000008 s, 7.613245 GiB/s 
+Thread 4: 0.000008 s, 7.627843 GiB/s 
+Thread 5: 0.000008 s, 7.571133 GiB/s 
+Thread 6: 0.000008 s, 7.589887 GiB/s 
+Thread 7: 0.000008 s, 7.619442 GiB/s 
+Thread 8: 0.000008 s, 7.609214 GiB/s 
+Thread 9: 0.000008 s, 7.589544 GiB/s 
+Thread 10: 0.000008 s, 7.651261 GiB/s 
+Thread 11: 0.000008 s, 7.585378 GiB/s 
+Thread 12: 0.000008 s, 7.638860 GiB/s 
+Thread 13: 0.000008 s, 7.603169 GiB/s 
+Thread 14: 0.000008 s, 7.649516 GiB/s 
+Thread 15: 0.000008 s, 7.630098 GiB/s 
+Thread 16: 0.000008 s, 7.619823 GiB/s 
+Thread 17: 0.000008 s, 7.629482 GiB/s 
+Thread 18: 0.000008 s, 7.592619 GiB/s 
+Thread 19: 0.000008 s, 7.625285 GiB/s 
+Thread 20: 0.000008 s, 7.627024 GiB/s 
+Thread 21: 0.000008 s, 7.613641 GiB/s 
+Thread 22: 0.000008 s, 7.600722 GiB/s 
+Thread 23: 0.000008 s, 7.620085 GiB/s 
+Thread 24: 0.000008 s, 7.635636 GiB/s 
+Thread 25: 0.000008 s, 7.645219 GiB/s 
+Thread 26: 0.000008 s, 7.641009 GiB/s 
+Thread 27: 0.000008 s, 7.647374 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2094080,num_threads:28,ntimes:10000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):211.943714,TotalRunTime(s):0.080634,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.642417 GiB/s 
+Thread 1: 0.000008 s, 7.691202 GiB/s 
+Thread 2: 0.000008 s, 7.699834 GiB/s 
+Thread 3: 0.000008 s, 7.541608 GiB/s 
+Thread 4: 0.000008 s, 7.568270 GiB/s 
+Thread 5: 0.000008 s, 7.603887 GiB/s 
+Thread 6: 0.000008 s, 7.603826 GiB/s 
+Thread 7: 0.000008 s, 7.676577 GiB/s 
+Thread 8: 0.000008 s, 7.682489 GiB/s 
+Thread 9: 0.000008 s, 7.680154 GiB/s 
+Thread 10: 0.000008 s, 7.674176 GiB/s 
+Thread 11: 0.000008 s, 7.678133 GiB/s 
+Thread 12: 0.000008 s, 7.677934 GiB/s 
+Thread 13: 0.000008 s, 7.662493 GiB/s 
+Thread 14: 0.000008 s, 7.656198 GiB/s 
+Thread 15: 0.000008 s, 7.575770 GiB/s 
+Thread 16: 0.000008 s, 7.546870 GiB/s 
+Thread 17: 0.000008 s, 7.685561 GiB/s 
+Thread 18: 0.000008 s, 7.687397 GiB/s 
+Thread 19: 0.000008 s, 7.567234 GiB/s 
+Thread 20: 0.000008 s, 7.591468 GiB/s 
+Thread 21: 0.000008 s, 7.623993 GiB/s 
+Thread 22: 0.000008 s, 7.661081 GiB/s 
+Thread 23: 0.000008 s, 7.667870 GiB/s 
+Thread 24: 0.000008 s, 7.675182 GiB/s 
+Thread 25: 0.000008 s, 7.699902 GiB/s 
+Thread 26: 0.000008 s, 7.690049 GiB/s 
+Thread 27: 0.000008 s, 7.628501 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2097152,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000008,CumulativeMemoryBandwidth(GiB/s):210.780134,TotalRunTime(s):0.008108,WSS(MiB):1.750000,
+Thread 0: 0.000008 s, 7.645801 GiB/s 
+Thread 1: 0.000008 s, 7.667715 GiB/s 
+Thread 2: 0.000008 s, 7.669256 GiB/s 
+Thread 3: 0.000008 s, 7.667377 GiB/s 
+Thread 4: 0.000008 s, 7.658194 GiB/s 
+Thread 5: 0.000008 s, 7.547278 GiB/s 
+Thread 6: 0.000008 s, 7.626423 GiB/s 
+Thread 7: 0.000008 s, 7.653748 GiB/s 
+Thread 8: 0.000008 s, 7.628320 GiB/s 
+Thread 9: 0.000008 s, 7.602804 GiB/s 
+Thread 10: 0.000008 s, 7.616743 GiB/s 
+Thread 11: 0.000008 s, 7.590872 GiB/s 
+Thread 12: 0.000008 s, 7.614770 GiB/s 
+Thread 13: 0.000008 s, 7.618467 GiB/s 
+Thread 14: 0.000008 s, 7.626270 GiB/s 
+Thread 15: 0.000008 s, 7.799194 GiB/s 
+Thread 16: 0.000008 s, 7.691078 GiB/s 
+Thread 17: 0.000008 s, 7.595474 GiB/s 
+Thread 18: 0.000008 s, 7.586242 GiB/s 
+Thread 19: 0.000008 s, 7.571459 GiB/s 
+Thread 20: 0.000008 s, 7.572575 GiB/s 
+Thread 21: 0.000008 s, 7.662266 GiB/s 
+Thread 22: 0.000008 s, 7.630901 GiB/s 
+Thread 23: 0.000008 s, 7.592025 GiB/s 
+Thread 24: 0.000008 s, 7.608917 GiB/s 
+Thread 25: 0.000008 s, 7.612518 GiB/s 
+Thread 26: 0.000008 s, 7.603082 GiB/s 
+Thread 27: 0.000008 s, 7.588977 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:2199552,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):16.000000,AvgTestRunTime(s):0.000019,CumulativeMemoryBandwidth(GiB/s):90.107984,TotalRunTime(s):0.018966,WSS(MiB):1.750000,
+size: 2301952.000000 MiB, n (=17)  % 8 != 0.....
+size: 2404352.000000 MiB, n (=17)  % 8 != 0.....
+size: 2506752.000000 MiB, n (=17)  % 8 != 0.....
+size: 2609152.000000 MiB, n (=17)  % 8 != 0.....
+size: 2711552.000000 MiB, n (=18)  % 8 != 0.....
+size: 2813952.000000 MiB, n (=18)  % 8 != 0.....
+size: 2916352.000000 MiB, n (=18)  % 8 != 0.....
+size: 3018752.000000 MiB, n (=18)  % 8 != 0.....
+size: 3121152.000000 MiB, n (=19)  % 8 != 0.....
+size: 3223552.000000 MiB, n (=19)  % 8 != 0.....
+size: 3325952.000000 MiB, n (=19)  % 8 != 0.....
+size: 3428352.000000 MiB, n (=19)  % 8 != 0.....
+size: 3530752.000000 MiB, n (=19)  % 8 != 0.....
+size: 3633152.000000 MiB, n (=20)  % 8 != 0.....
+size: 3735552.000000 MiB, n (=20)  % 8 != 0.....
+size: 3837952.000000 MiB, n (=20)  % 8 != 0.....
+size: 3940352.000000 MiB, n (=20)  % 8 != 0.....
+size: 4042752.000000 MiB, n (=20)  % 8 != 0.....
+size: 4145152.000000 MiB, n (=20)  % 8 != 0.....
+size: 4247552.000000 MiB, n (=21)  % 8 != 0.....
+size: 4349952.000000 MiB, n (=21)  % 8 != 0.....
+size: 4452352.000000 MiB, n (=21)  % 8 != 0.....
+size: 4554752.000000 MiB, n (=21)  % 8 != 0.....
+size: 4657152.000000 MiB, n (=21)  % 8 != 0.....
+size: 4759552.000000 MiB, n (=21)  % 8 != 0.....
+size: 4861952.000000 MiB, n (=22)  % 8 != 0.....
+size: 4964352.000000 MiB, n (=22)  % 8 != 0.....
+size: 5066752.000000 MiB, n (=22)  % 8 != 0.....
+size: 5169152.000000 MiB, n (=22)  % 8 != 0.....
+size: 5271552.000000 MiB, n (=22)  % 8 != 0.....
+size: 5373952.000000 MiB, n (=22)  % 8 != 0.....
+size: 5476352.000000 MiB, n (=23)  % 8 != 0.....
+size: 5578752.000000 MiB, n (=23)  % 8 != 0.....
+size: 5681152.000000 MiB, n (=23)  % 8 != 0.....
+size: 5783552.000000 MiB, n (=23)  % 8 != 0.....
+size: 5885952.000000 MiB, n (=23)  % 8 != 0.....
+size: 5988352.000000 MiB, n (=23)  % 8 != 0.....
+size: 6090752.000000 MiB, n (=23)  % 8 != 0.....
+Thread 0: 0.000024 s, 8.675191 GiB/s 
+Thread 1: 0.000023 s, 8.916183 GiB/s 
+Thread 2: 0.000023 s, 8.916385 GiB/s 
+Thread 3: 0.000023 s, 8.882064 GiB/s 
+Thread 4: 0.000023 s, 8.879935 GiB/s 
+Thread 5: 0.000023 s, 8.905163 GiB/s 
+Thread 6: 0.000023 s, 8.909769 GiB/s 
+Thread 7: 0.000023 s, 8.881141 GiB/s 
+Thread 8: 0.000023 s, 8.888515 GiB/s 
+Thread 9: 0.000023 s, 8.929823 GiB/s 
+Thread 10: 0.000023 s, 8.926145 GiB/s 
+Thread 11: 0.000023 s, 8.879612 GiB/s 
+Thread 12: 0.000023 s, 8.872530 GiB/s 
+Thread 13: 0.000023 s, 8.878610 GiB/s 
+Thread 14: 0.000023 s, 8.871493 GiB/s 
+Thread 15: 0.000023 s, 8.866678 GiB/s 
+Thread 16: 0.000023 s, 8.900715 GiB/s 
+Thread 17: 0.000023 s, 8.877488 GiB/s 
+Thread 18: 0.000023 s, 8.881769 GiB/s 
+Thread 19: 0.000023 s, 8.859187 GiB/s 
+Thread 20: 0.000023 s, 8.853915 GiB/s 
+Thread 21: 0.000023 s, 8.892411 GiB/s 
+Thread 22: 0.000023 s, 8.911523 GiB/s 
+Thread 23: 0.000023 s, 8.899152 GiB/s 
+Thread 24: 0.000023 s, 8.938165 GiB/s 
+Thread 25: 0.000023 s, 8.912504 GiB/s 
+Thread 26: 0.000023 s, 8.920976 GiB/s 
+Thread 27: 0.000023 s, 8.910257 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6193152,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):242.682022,TotalRunTime(s):0.023767,WSS(MiB):5.906250,
+Thread 0: 0.000025 s, 8.114437 GiB/s 
+Thread 1: 0.000023 s, 8.920721 GiB/s 
+Thread 2: 0.000023 s, 8.883238 GiB/s 
+Thread 3: 0.000023 s, 8.888068 GiB/s 
+Thread 4: 0.000023 s, 8.868647 GiB/s 
+Thread 5: 0.000023 s, 8.872353 GiB/s 
+Thread 6: 0.000023 s, 8.867553 GiB/s 
+Thread 7: 0.000023 s, 8.925210 GiB/s 
+Thread 8: 0.000023 s, 8.940597 GiB/s 
+Thread 9: 0.000023 s, 8.903289 GiB/s 
+Thread 10: 0.000023 s, 8.903177 GiB/s 
+Thread 11: 0.000023 s, 8.925767 GiB/s 
+Thread 12: 0.000023 s, 8.906775 GiB/s 
+Thread 13: 0.000023 s, 8.878931 GiB/s 
+Thread 14: 0.000023 s, 8.874015 GiB/s 
+Thread 15: 0.000023 s, 8.880389 GiB/s 
+Thread 16: 0.000023 s, 8.899843 GiB/s 
+Thread 17: 0.000023 s, 8.871784 GiB/s 
+Thread 18: 0.000023 s, 8.857848 GiB/s 
+Thread 19: 0.000023 s, 8.850727 GiB/s 
+Thread 20: 0.000023 s, 8.906907 GiB/s 
+Thread 21: 0.000023 s, 8.887193 GiB/s 
+Thread 22: 0.000024 s, 8.722841 GiB/s 
+Thread 23: 0.000023 s, 8.845436 GiB/s 
+Thread 24: 0.000023 s, 8.841845 GiB/s 
+Thread 25: 0.000023 s, 8.854833 GiB/s 
+Thread 26: 0.000023 s, 8.858169 GiB/s 
+Thread 27: 0.000023 s, 8.907479 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6295552,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000025,CumulativeMemoryBandwidth(GiB/s):226.659046,TotalRunTime(s):0.025447,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.650542 GiB/s 
+Thread 1: 0.000023 s, 8.899095 GiB/s 
+Thread 2: 0.000023 s, 8.873571 GiB/s 
+Thread 3: 0.000023 s, 8.894438 GiB/s 
+Thread 4: 0.000023 s, 8.903916 GiB/s 
+Thread 5: 0.000023 s, 8.906124 GiB/s 
+Thread 6: 0.000023 s, 8.859834 GiB/s 
+Thread 7: 0.000023 s, 8.899473 GiB/s 
+Thread 8: 0.000023 s, 8.882900 GiB/s 
+Thread 9: 0.000023 s, 8.915176 GiB/s 
+Thread 10: 0.000023 s, 8.930989 GiB/s 
+Thread 11: 0.000023 s, 8.895753 GiB/s 
+Thread 12: 0.000023 s, 8.910737 GiB/s 
+Thread 13: 0.000023 s, 8.947555 GiB/s 
+Thread 14: 0.000023 s, 8.946100 GiB/s 
+Thread 15: 0.000023 s, 8.850849 GiB/s 
+Thread 16: 0.000023 s, 8.873469 GiB/s 
+Thread 17: 0.000023 s, 8.863880 GiB/s 
+Thread 18: 0.000023 s, 8.878366 GiB/s 
+Thread 19: 0.000023 s, 8.880267 GiB/s 
+Thread 20: 0.000023 s, 8.895748 GiB/s 
+Thread 21: 0.000023 s, 8.899233 GiB/s 
+Thread 22: 0.000023 s, 8.897769 GiB/s 
+Thread 23: 0.000023 s, 8.917845 GiB/s 
+Thread 24: 0.000023 s, 8.913169 GiB/s 
+Thread 25: 0.000023 s, 8.870968 GiB/s 
+Thread 26: 0.000023 s, 8.848367 GiB/s 
+Thread 27: 0.000023 s, 8.882536 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6397952,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):241.999860,TotalRunTime(s):0.023834,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.670520 GiB/s 
+Thread 1: 0.000023 s, 8.928379 GiB/s 
+Thread 2: 0.000023 s, 8.912626 GiB/s 
+Thread 3: 0.000023 s, 8.904979 GiB/s 
+Thread 4: 0.000023 s, 8.940528 GiB/s 
+Thread 5: 0.000023 s, 8.924125 GiB/s 
+Thread 6: 0.000023 s, 8.927062 GiB/s 
+Thread 7: 0.000023 s, 8.964477 GiB/s 
+Thread 8: 0.000023 s, 8.936782 GiB/s 
+Thread 9: 0.000023 s, 8.900358 GiB/s 
+Thread 10: 0.000023 s, 8.895565 GiB/s 
+Thread 11: 0.000023 s, 8.893283 GiB/s 
+Thread 12: 0.000023 s, 8.902232 GiB/s 
+Thread 13: 0.000023 s, 8.911472 GiB/s 
+Thread 14: 0.000023 s, 8.873864 GiB/s 
+Thread 15: 0.000023 s, 8.950553 GiB/s 
+Thread 16: 0.000023 s, 8.937710 GiB/s 
+Thread 17: 0.000023 s, 8.940411 GiB/s 
+Thread 18: 0.000023 s, 8.927064 GiB/s 
+Thread 19: 0.000023 s, 8.906435 GiB/s 
+Thread 20: 0.000023 s, 8.866153 GiB/s 
+Thread 21: 0.000023 s, 8.901683 GiB/s 
+Thread 22: 0.000023 s, 8.874439 GiB/s 
+Thread 23: 0.000023 s, 8.921839 GiB/s 
+Thread 24: 0.000023 s, 8.926222 GiB/s 
+Thread 25: 0.000023 s, 8.912198 GiB/s 
+Thread 26: 0.000023 s, 8.909898 GiB/s 
+Thread 27: 0.000023 s, 8.949091 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6500352,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):242.589547,TotalRunTime(s):0.023776,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.705134 GiB/s 
+Thread 1: 0.000023 s, 8.916459 GiB/s 
+Thread 2: 0.000036 s, 5.723457 GiB/s 
+Thread 3: 0.000023 s, 8.899301 GiB/s 
+Thread 4: 0.000023 s, 8.936816 GiB/s 
+Thread 5: 0.000023 s, 8.955712 GiB/s 
+Thread 6: 0.000023 s, 8.960741 GiB/s 
+Thread 7: 0.000023 s, 8.959767 GiB/s 
+Thread 8: 0.000023 s, 8.938897 GiB/s 
+Thread 9: 0.000023 s, 8.908480 GiB/s 
+Thread 10: 0.000023 s, 8.928740 GiB/s 
+Thread 11: 0.000023 s, 8.895180 GiB/s 
+Thread 12: 0.000023 s, 8.856644 GiB/s 
+Thread 13: 0.000046 s, 4.468648 GiB/s 
+Thread 14: 0.000023 s, 8.926377 GiB/s 
+Thread 15: 0.000023 s, 8.950298 GiB/s 
+Thread 16: 0.000035 s, 5.907472 GiB/s 
+Thread 17: 0.000023 s, 8.943677 GiB/s 
+Thread 18: 0.000023 s, 8.962087 GiB/s 
+Thread 19: 0.000023 s, 8.915700 GiB/s 
+Thread 20: 0.000023 s, 8.935448 GiB/s 
+Thread 21: 0.000023 s, 8.949798 GiB/s 
+Thread 22: 0.000023 s, 8.928758 GiB/s 
+Thread 23: 0.000023 s, 8.918502 GiB/s 
+Thread 24: 0.000025 s, 8.186774 GiB/s 
+Thread 25: 0.000023 s, 8.938498 GiB/s 
+Thread 26: 0.000040 s, 5.146216 GiB/s 
+Thread 27: 0.000023 s, 8.946256 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6602752,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000049,CumulativeMemoryBandwidth(GiB/s):117.468256,TotalRunTime(s):0.049101,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.695368 GiB/s 
+Thread 1: 0.000023 s, 8.884594 GiB/s 
+Thread 2: 0.000023 s, 8.905712 GiB/s 
+Thread 3: 0.000023 s, 8.885161 GiB/s 
+Thread 4: 0.000023 s, 8.880554 GiB/s 
+Thread 5: 0.000023 s, 8.912942 GiB/s 
+Thread 6: 0.000023 s, 8.899846 GiB/s 
+Thread 7: 0.000023 s, 8.919170 GiB/s 
+Thread 8: 0.000023 s, 8.919338 GiB/s 
+Thread 9: 0.000023 s, 8.908476 GiB/s 
+Thread 10: 0.000023 s, 8.898398 GiB/s 
+Thread 11: 0.000023 s, 8.891419 GiB/s 
+Thread 12: 0.000023 s, 8.898300 GiB/s 
+Thread 13: 0.000023 s, 8.890583 GiB/s 
+Thread 14: 0.000023 s, 8.876140 GiB/s 
+Thread 15: 0.000023 s, 8.863803 GiB/s 
+Thread 16: 0.000023 s, 8.860102 GiB/s 
+Thread 17: 0.000023 s, 8.909490 GiB/s 
+Thread 18: 0.000023 s, 8.860009 GiB/s 
+Thread 19: 0.000023 s, 8.886943 GiB/s 
+Thread 20: 0.000023 s, 8.861582 GiB/s 
+Thread 21: 0.000023 s, 8.886286 GiB/s 
+Thread 22: 0.000023 s, 8.900700 GiB/s 
+Thread 23: 0.000023 s, 8.920649 GiB/s 
+Thread 24: 0.000023 s, 8.906432 GiB/s 
+Thread 25: 0.000023 s, 8.939297 GiB/s 
+Thread 26: 0.000023 s, 8.866743 GiB/s 
+Thread 27: 0.000023 s, 8.921226 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6705152,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000025,CumulativeMemoryBandwidth(GiB/s):234.055728,TotalRunTime(s):0.024643,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.678167 GiB/s 
+Thread 1: 0.000023 s, 8.919562 GiB/s 
+Thread 2: 0.000023 s, 8.884045 GiB/s 
+Thread 3: 0.000023 s, 8.914710 GiB/s 
+Thread 4: 0.000023 s, 8.922220 GiB/s 
+Thread 5: 0.000023 s, 8.872272 GiB/s 
+Thread 6: 0.000023 s, 8.865046 GiB/s 
+Thread 7: 0.000023 s, 8.916040 GiB/s 
+Thread 8: 0.000023 s, 8.866611 GiB/s 
+Thread 9: 0.000023 s, 8.921805 GiB/s 
+Thread 10: 0.000023 s, 8.929440 GiB/s 
+Thread 11: 0.000023 s, 8.881788 GiB/s 
+Thread 12: 0.000023 s, 8.910040 GiB/s 
+Thread 13: 0.000023 s, 8.864852 GiB/s 
+Thread 14: 0.000023 s, 8.900052 GiB/s 
+Thread 15: 0.000023 s, 8.880653 GiB/s 
+Thread 16: 0.000023 s, 8.881568 GiB/s 
+Thread 17: 0.000023 s, 8.888528 GiB/s 
+Thread 18: 0.000023 s, 8.906130 GiB/s 
+Thread 19: 0.000023 s, 8.912317 GiB/s 
+Thread 20: 0.000023 s, 8.936030 GiB/s 
+Thread 21: 0.000023 s, 8.893138 GiB/s 
+Thread 22: 0.000023 s, 8.931893 GiB/s 
+Thread 23: 0.000023 s, 8.827080 GiB/s 
+Thread 24: 0.000023 s, 8.867006 GiB/s 
+Thread 25: 0.000023 s, 8.899262 GiB/s 
+Thread 26: 0.000023 s, 8.940910 GiB/s 
+Thread 27: 0.000023 s, 8.893800 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6807552,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):242.803806,TotalRunTime(s):0.023755,WSS(MiB):5.906250,
+Thread 0: 0.000024 s, 8.669651 GiB/s 
+Thread 1: 0.000023 s, 8.915391 GiB/s 
+Thread 2: 0.000023 s, 8.901118 GiB/s 
+Thread 3: 0.000023 s, 8.875101 GiB/s 
+Thread 4: 0.000023 s, 8.885727 GiB/s 
+Thread 5: 0.000023 s, 8.886153 GiB/s 
+Thread 6: 0.000023 s, 8.881884 GiB/s 
+Thread 7: 0.000023 s, 8.914131 GiB/s 
+Thread 8: 0.000023 s, 8.913239 GiB/s 
+Thread 9: 0.000023 s, 8.911996 GiB/s 
+Thread 10: 0.000023 s, 8.913842 GiB/s 
+Thread 11: 0.000023 s, 8.890002 GiB/s 
+Thread 12: 0.000023 s, 8.875567 GiB/s 
+Thread 13: 0.000023 s, 8.891401 GiB/s 
+Thread 14: 0.000023 s, 8.874852 GiB/s 
+Thread 15: 0.000023 s, 8.914415 GiB/s 
+Thread 16: 0.000023 s, 8.911467 GiB/s 
+Thread 17: 0.000023 s, 8.927805 GiB/s 
+Thread 18: 0.000023 s, 8.949938 GiB/s 
+Thread 19: 0.000023 s, 8.946382 GiB/s 
+Thread 20: 0.000023 s, 8.915748 GiB/s 
+Thread 21: 0.000023 s, 8.954248 GiB/s 
+Thread 22: 0.000023 s, 8.901405 GiB/s 
+Thread 23: 0.000023 s, 8.900176 GiB/s 
+Thread 24: 0.000023 s, 8.881849 GiB/s 
+Thread 25: 0.000023 s, 8.886120 GiB/s 
+Thread 26: 0.000023 s, 8.903038 GiB/s 
+Thread 27: 0.000023 s, 8.896915 GiB/s 
+Executable:./../bin/adapt_membench_jacobi_3d_unrolled00,wss:6909952,num_threads:28,ntimes:1000,
+NumberOfThreads:28,n(elements):24.000000,AvgTestRunTime(s):0.000024,CumulativeMemoryBandwidth(GiB/s):242.609010,TotalRunTime(s):0.023774,WSS(MiB):5.906250,
+size: 7012352.000000 MiB, n (=25)  % 8 != 0.....
+size: 7114752.000000 MiB, n (=25)  % 8 != 0.....
+size: 7217152.000000 MiB, n (=25)  % 8 != 0.....
+size: 7319552.000000 MiB, n (=25)  % 8 != 0.....
+size: 7421952.000000 MiB, n (=25)  % 8 != 0.....
+size: 7524352.000000 MiB, n (=25)  % 8 != 0.....
+size: 7626752.000000 MiB, n (=25)  % 8 != 0.....
+size: 7729152.000000 MiB, n (=25)  % 8 != 0.....
+size: 7831552.000000 MiB, n (=25)  % 8 != 0.....
+size: 7933952.000000 MiB, n (=26)  % 8 != 0.....
+size: 8036352.000000 MiB, n (=26)  % 8 != 0.....
+size: 8138752.000000 MiB, n (=26)  % 8 != 0.....
+size: 8241152.000000 MiB, n (=26)  % 8 != 0.....
+size: 8343552.000000 MiB, n (=26)  % 8 != 0.....
+size: 8445952.000000 MiB, n (=26)  % 8 != 0.....
+size: 8548352.000000 MiB, n (=26)  % 8 != 0.....
+size: 8650752.000000 MiB, n (=26)  % 8 != 0.....
+size: 8753152.000000 MiB, n (=26)  % 8 != 0.....
+size: 8855552.000000 MiB, n (=27)  % 8 != 0.....
+size: 8957952.000000 MiB, n (=27)  % 8 != 0.....
+size: 9060352.000000 MiB, n (=27)  % 8 != 0.....
+size: 9162752.000000 MiB, n (=27)  % 8 != 0.....
+size: 9265152.000000 MiB, n (=27)  % 8 != 0.....
+size: 9367552.000000 MiB, n (=27)  % 8 != 0.....
+size: 9469952.000000 MiB, n (=27)  % 8 != 0.....
+size: 9572352.000000 MiB, n (=27)  % 8 != 0.....
+size: 9674752.000000 MiB, n (=27)  % 8 != 0.....
+size: 9777152.000000 MiB, n (=27)  % 8 != 0.....
+size: 9879552.000000 MiB, n (=28)  % 8 != 0.....
+size: 9981952.000000 MiB, n (=28)  % 8 != 0.....
+size: 10084352.000000 MiB, n (=28)  % 8 != 0.....
+size: 10186752.000000 MiB, n (=28)  % 8 != 0.....
+size: 10289152.000000 MiB, n (=28)  % 8 != 0.....
+size: 10391552.000000 MiB, n (=28)  % 8 != 0.....

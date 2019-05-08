@@ -1,0 +1,5 @@
+Domain_init := [n] -> {
+    STM_2DS_init[j,i] : j < n+2 and j >= 0 and i < n+2 and i >= 0;
+};
+
+codegen (Domain_init);

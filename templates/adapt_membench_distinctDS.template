@@ -1,0 +1,186 @@
+/* Driver code for benchmarking ADAPT_TEMPLATE using distinct/ independent data spaces */
+
+#include<stdio.h>
+#include<omp.h>
+#include<sys/time.h>
+#include<time.h>
+#include<stdlib.h>
+#include<getopt.h>
+#include<string.h>
+#include<ctype.h>
+#include<iostream>
+#include<math.h>
+#include "../common/Configuration.h"
+#include "../common/Measurements.h"
+#include <cassert>
+
+#define min(a,b) (((a)<(b))?(a):(b))
+#define intDiv_(x,y)  ((((x)%(y))>=0) ? ((x)/(y)) : (((x)/(y)) -1))
+#define floord(n, d)  intDiv_((n), (d))
+
+/*******************************************************************************
+* The header file for ADAPT_TEMPLATE
+*******************************************************************************/
+#include "ADAPT_TEMPLATE_distinctDS.h"
+
+using namespace std;
+
+/*******************************************************************************
+ * Prototypes of functions used in the benchmark
+ ******************************************************************************/
+void add_command_line(Configuration& configuration);
+void add_command_line_sched(Configuration& configuration);
+void run_benchmark(Configuration& configuration, Measurements& measurements);
+bool verify_results(Configuration& configuration, Measurements& measurements, double **A, double **B);
+double get_time();
+bool setNumThreads(int nThreads);
+
+
+/*******************************************************************************
+ * Main parses cmd line args, invokes run_benchmark and prints results
+ ******************************************************************************/
+int main(int argc, char **argv) {
+  // 1 - standard input and output for our benchmarks
+  Configuration configuration;
+  Measurements measurements; 
+
+  // 2 - grab the command line variables we need
+  add_command_line(configuration);  
+  add_command_line_sched(configuration);
+  configuration.parse(argc,argv);
+
+  // 3 - run the benchmark
+  run_benchmark(configuration, measurements);
+
+  // 4 - print the configuration and measurements
+  string input_config = configuration.toLDAPString();
+  cout << input_config << endl;
+  cout << measurements.toLDAPString() << endl;
+}
+
+/*******************************************************************************
+ *  add_command_line add command line arguments to Configuration
+ ******************************************************************************/
+void add_command_line(Configuration& configuration){
+  configuration.addParamInt("wss",'I', 10248576,
+                  "--wss or -I, the initial working set size in bytes");
+  configuration.addParamInt("num_threads",'T', omp_get_max_threads(),
+                  "--num_threads or -T, number of threads");
+  configuration.addParamInt("ntimes",'N', 1000,
+                  "--ntimes or -N, the number of times the kernel is run for each working set size");
+}
+
+/*******************************************************************************
+ * The actual benchmark is executed here
+ ******************************************************************************/
+void run_benchmark(Configuration& configuration, Measurements& measurement){
+
+  long int k, i; 
+  int nthreads = configuration.getInt("num_threads");
+  setNumThreads(nthreads);
+  int ntimes = configuration.getInt("ntimes");
+  double wss = configuration.getInt("wss");
+  int num_threads = omp_get_max_threads();
+  
+  //Number of elements n and actual WSS calculated
+  long n = STM_FUNC_calcn(wss,num_threads);
+  double actualWSS = STM_FUNC_calcActualWSS(n,num_threads);
+
+  ADAPT_SCHED_PARAMS
+
+  // allocate memory for the data spaces
+  #ifdef STM_alloc
+    STM_alloc
+  #else
+     assert (false);
+  #endif
+
+  
+  // prepare to take measurements
+  double exec_time, mem_bandwidth;
+  double init_thread_time[num_threads];
+  double per_thread_time[num_threads];
+
+  //First touch initialization of the arrays
+  #pragma omp parallel
+  {
+     int t_id = omp_get_thread_num();
+     STM_DS_alloc 
+     #include "ADAPT_TEMPLATE_init.c"
+  }
+ 
+  // start time measurement of the execution
+  double init_time = get_time();
+  
+  #pragma omp parallel 
+  {
+    int t_id = omp_get_thread_num();
+
+    init_thread_time[t_id] = omp_get_wtime();
+
+    for(int kp = 0; kp < ntimes; kp++) {
+      #include "ADAPT_SCHEDULE_run.c"
+      STM_postrun()
+    }
+    per_thread_time[t_id] = omp_get_wtime() - init_thread_time[t_id];
+  }
+  
+  // measure execution time of full parallel section
+  exec_time  = get_time() - init_time;
+
+  // Set the measurement results if all is OK.
+  int convert2GiB = 1024*1024*1024;
+
+  //Calculation of memory bandwidth
+  double avg_time = exec_time/(ntimes);
+  mem_bandwidth = actualWSS/avg_time;
+  mem_bandwidth = mem_bandwidth/convert2GiB;
+
+  measurement.setField("n(elements)", (float)n);
+  //Recording the working set size tested
+  measurement.setField("WSS(MiB)", actualWSS/(float)(1024*1024));
+  //Recording the bandwidth found
+  measurement.setField("CumulativeMemoryBandwidth(GiB/s)", mem_bandwidth);
+  //Recording the average running time
+  measurement.setField("TotalRunTime(s)", exec_time);
+  measurement.setField("AvgTestRunTime(s)", avg_time);
+  measurement.setField("NumberOfThreads", omp_get_max_threads());
+ 
+  //Record per thread statistics 
+  double per_threadWSS = actualWSS/num_threads;
+  for(k = 0; k < num_threads; k++){
+     double per_thread_bandwidth = per_threadWSS/(per_thread_time[k]/ntimes);
+     per_thread_bandwidth = per_thread_bandwidth/convert2GiB;
+     printf("Thread %d: %lf s, %lf GiB/s \n",
+            k, per_thread_time[k]/ntimes, per_thread_bandwidth);
+  }
+//  verify_results(configuration, measurement, A, B);
+
+  return;
+}
+
+/**
+ * get_time() returns the current system time
+ */
+double get_time(){
+    struct timeval tp;
+    gettimeofday(&tp,NULL);
+    return ( (double) tp.tv_sec + (double) tp.tv_usec * 1.e-6 );
+}	
+
+/**
+ * setNumThreads assigns the number of threades to be implemented
+ *
+ */
+bool setNumThreads(int nThreads) {
+    if(nThreads > omp_get_max_threads()){
+        printf("--num_threads cannot be more than %d\n",omp_get_max_threads());
+        return false;
+    }else if (nThreads < 1){
+        printf("--num_threads cannot be less than %d\n",1);
+        return false;
+    }else{
+        omp_set_num_threads(nThreads);
+        return true;
+    }
+}

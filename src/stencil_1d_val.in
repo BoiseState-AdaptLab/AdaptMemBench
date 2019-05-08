@@ -1,0 +1,5 @@
+Domain_val := [n] -> {
+    STM_val[k] : k <= n and k >= 1;
+};
+
+codegen (Domain_val);
